@@ -1,3 +1,7 @@
+# Large files
+data/
+geo/
+
 # History files
 .Rhistory
 .Rapp.history
