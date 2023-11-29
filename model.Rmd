@@ -1,0 +1,66 @@
+---
+title: "ARIMA Attempt"
+author: "Grey Xu"
+date: "2023-11-07"
+output: pdf_document
+---
+```{r}
+library(tidyverse)
+library(forecast)
+library(sf)
+library(imputeTS)
+library(data.table)
+```
+
+__Load Data and Filter out__
+
+```{r}
+water_area <- fread('data/1_openwater_area.csv')
+evap_volume <- fread('data/2_evaporation_volume.csv')
+```
+
+__Part 1. Modeling for Volume__
+```{r}
+df_slc_area <- water_area[Hylak_id == 792
+  ][, melt(.SD, id.vars = "Hylak_id")
+  ][, date := as.IDate(variable)
+  ][date >= as.IDate("1995-01-01")] 
+
+ts_area <- ts(df_slc_area$value, frequency = 12) %>% na_interpolation()
+
+tsdisplay(ts_area)
+```
+
+```{r}
+arima_model <- auto.arima(ts_area, lambda = 'auto')
+summary(arima_model)
+```
+```{r}
+checkresiduals(arima_model)
+
+```
+
+```{r}
+ets(ts_area, lambda = 'auto')
+```
+
+__Part 2. Modeling for rate__
+```{r}
+df_slc_vol <- evap_volume[Hylak_id == 792
+  ][, melt(.SD, id.vars = "Hylak_id")
+  ][, date := as.IDate(variable)
+  ][date >= as.IDate("1995-01-01")] 
+
+ts_vol <- ts(df_slc_vol$value, frequency = 12) %>% na_interpolation()
+
+tsdisplay(ts_vol)
+```
+
+```{r}
+arima_model_2 <- auto.arima(ts_vol, lambda = 'auto')
+summary(arima_model_2)
+```
+
+```{r}
+checkresiduals(arima_model_2)
+```
