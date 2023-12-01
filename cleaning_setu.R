@@ -14,6 +14,9 @@ library(vars)
 library(tseries)
 library(dplyr)
 library(hts)
+library(tsibble)
+library(fpp3)
+library(fable)
 setwd("D:/Harris Course Work/Time Series Analysis/Project/lakes-in-la/lakes-in-la")
 random_hylak <- sample(1:1427688, 100, replace = TRUE)
 (query_poly <- glue("SELECT * FROM HydroLAKES_polys_v10 WHERE Hylak_id in ({glue_collapse(random_hylak, sep = ',')})"))
@@ -60,7 +63,42 @@ lake_df_hd_ts <- ts(lake_df_hd$value, start = c(1985,1), end = c(2018,12), frequ
 tsdisplay(lake_df_hd_ts)
 #Also worth looking, there is a trend ^
 
+lake_df_ehx <- lake_df_ts %>% filter(GEnZ_Name == "Extremely hot and xeric")
+lake_df_ehx_ts <- ts(lake_df_ehx$value, start = c(1985,1), end = c(2018,12), frequency = 12)
+tsdisplay(lake_df_ehx_ts)
+#Variable seasonal pattern ^
+
+lake_df_ehm <- lake_df_ts %>% filter(GEnZ_Name == "Extremely hot and moist")
+lake_df_ehm_ts <- ts(lake_df_ehm$value, start = c(1985,1), end = c(2018,12), frequency = 12)
+tsdisplay(lake_df_ehm_ts)
+
+
+
+lake_df_ecw1 <- lake_df_ts %>% filter(GEnZ_Name == "Extremely cold and wet 1")
+lake_df_ecw1_ts <- ts(lake_df_ecw1$value, start = c(1985,1), end = c(2018,12), frequency = 12)
+tsdisplay(lake_df_ecw1_ts)
+
+
+
+lake_df_overall <- lake_df_ts %>% group_by(date) %>% summarize(agg_val = sum(value))
+lake_df_overall_ts <- ts(lake_df_overall$agg_val, start = c(1985,1), end = c(2018,12), frequency = 12)
+tsdisplay(lake_df_overall_ts)
 
 demo_lake <- lake_area %>% filter(Hylak_id == 789677)
 demo_area_ts <- ts(demo_lake$value, start = c(1985,1), end = c(2018, 12), frequency = 12)
 tsdisplay(demo_area_ts)
+
+
+##Trying grouped Time Series Operations
+
+#bottom level should be a multivariate time series
+
+ts_pre_gts <- ts(lake_df_ts[,c("value",  "GEnZ_Name", "Hylak_id")], start = c(1985,1), end= c(2018,12), frequency = 12)
+ts_pre_tsib <- lake_df_ts[,c("date", "value",  "GEnZ_Name", "Hylak_id")] %>% 
+  as_tsibble(key=c(GEnZ_Name, Hylak_id),  index = date)
+
+ts_hts <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(value))
+
+ts_hts %>% filter(is_aggregated(Hylak_id)) %>% autoplot(Total_area) + 
+  facet_wrap(vars(GEnZ_Name), scales = "free_y", ncol = 3) +
+  theme(legend.position = "none")
