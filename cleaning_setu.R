@@ -19,6 +19,8 @@ library(fpp3)
 library(fable)
 library(pracma)
 library(progressr)
+
+#For Ethan: Change working directory
 setwd("D:/Harris Course Work/Time Series Analysis/Project/lakes-in-la/lakes-in-la")
 random_hylak <- sample(1:1427688, 100, replace = TRUE)
 (query_poly <- glue("SELECT * FROM HydroLAKES_polys_v10 WHERE Hylak_id in ({glue_collapse(random_hylak, sep = ',')})"))
@@ -52,27 +54,15 @@ atlas_west <- st_read('geo/lakeATLAS_Data_v10_shp/lakeATLAS_v10_shp/lakeATLAS_v1
 atlas_east <- st_read('geo/lakeATLAS_Data_v10_shp/lakeATLAS_v10_shp/lakeATLAS_v10_pol_east.shp', query = query_atlas_e) 
 atlas_data <- rbind(atlas_west, atlas_east)
 
+
+#For Ethan: You'll need to download this csv from my git branch
+
 lake_class_map <- read.csv("data/lake_class_mapping.csv")
 lake_type_labs <- left_join(atlas_data, lake_class_map, by = c("clz_cl_lmj" = "GEnZ_ID"))
 lake_dataframe_final <- left_join(lake_area_evap, lake_type_labs, suffix = c("", "_y"), by = "Hylak_id") %>% dplyr::select(-ends_with("_y"))
 lake_df_ts <- lake_dataframe_final[,c("Hylak_id", "date","value", "evap_value",  "GEnZ_Name", "Country")]
 lake_df_ts$year = year(lake_df_ts$date)
-lake_all_prop_id <- lake_df_ts %>% group_by(Hylak_id, year) %>% summarize(total = n())
-lake_zero_prop_id <- lake_df_ts %>% filter(value ==0) %>%
-  group_by(Hylak_id, value, year) %>%
-  summarize(zero_count = n())
 
-lake_zero_prop <- left_join(lake_all_prop_id, lake_zero_prop_id, by = c("Hylak_id", "year")) %>% mutate(prop = zero_count/total)
-
-yearly_zeroes <- lake_zero_prop %>% group_by(year) %>% summarize(total_zero = sum(zero_count, na.rm= TRUE))
-hylak_zeroes <- lake_zero_prop %>% group_by(Hylak_id) %>% summarize(total_zero = sum(zero_count, na.rm= TRUE), total = sum(total))
-
-
-ggplot(hylak_zeroes, aes(x = year, y = total_zero)) +
-  geom_line() +
-  labs(title = "Total Zeros Over Years",
-       x = "Year",
-       y = "Total Zeros")
 
 
 ##Trying grouped Time Series Operations
@@ -91,10 +81,12 @@ ts_pre_tsib <- lake_df_ts[,c("date", "value_imp", "evap_value", "GEnZ_Name", "Hy
 hierarchy_tsib <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(value_imp),
                                                 Total_evap = sum(evap_value))
 
+#This is to visualize different classes
 hierarchy_tsib %>% filter(is_aggregated(Hylak_id)) %>% autoplot(Total_area) + 
   facet_wrap(vars(GEnZ_Name), scales = "free_y", ncol = 3) +
   theme(legend.position = "none")
 
+### For Ethan: You can skip running this part up until next comment for you##
 hierarch_arima<- progressr::with_progress(
   hierarchy_tsib %>% filter(is_aggregated(Hylak_id), !is_aggregated(GEnZ_Name)) %>%
   tsibble::fill_gaps() %>% 
@@ -125,22 +117,41 @@ mo_forecast |>
   facet_wrap(vars(GEnZ_Name), scales = "free_y")
 
 
-#Hierarchical with xreg and no imputation
-ts_pre_tsib_xreg <- lake_df_ts[,c("date", "value", "evap_value", "GEnZ_Name", "Hylak_id")] %>% 
-  as_tsibble(key=c(GEnZ_Name, Hylak_id, evap_value),  index = date)
-
-hierarchy_tsib_xreg <- ts_pre_tsib_xreg %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(value),
-                                                Total_evap = sum(evap_value))
+#Hierarchical with xreg and  imputation
+#For Ethan: Continue from here
 
 hierarch_arima_xreg <- progressr::with_progress(
   hierarchy_tsib %>% #filter(is_aggregated(Hylak_id), !is_aggregated(GEnZ_Name)) %>%
     tsibble::fill_gaps() %>% 
-    model(mo_mod_xreg = ARIMA(log(Total_area) ~ 0 + PDQ(period = 12) + Total_evap, 
+    model(mo_mod_xreg = ARIMA(log(Total_area) ~ xreg(Total_evap) + PDQ(period = 12), 
                          stepwise = FALSE,
                          order_constraint = p + q + P + Q <= 32 & (constant + d + D <= 4))) %>%
     reconcile(mo = middle_out(mo_mod_xreg))
 )
 
 
+
+
 #Need to figure out how to pass xreg matrix
-xreg_forecast <- hierarch_arima_xreg %>% forecast(h = 12, Total_evap = rnorm(12, mean = 10, sd =3))
+hierarchy_xreg_pred <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id,
+                                                Total_evap = sum(evap_value), Total_value = sum(value_imp))
+
+snaive_xreg_forecast <- progressr::with_progress(
+  hierarchy_xreg_pred %>% 
+    tsibble::fill_gaps() %>% 
+    model(mo_xreg_arg_mod = SNAIVE(Total_evap)) %>%
+    reconcile(mo = middle_out(mo_xreg_arg_mod))
+)
+  
+NEW_XREG =snaive_xreg_forecast %>% forecast(h = 12)
+noise <- rnorm(length(NEW_XREG), mean = 0, sd = 2)
+NEW_XREG$.mean = NEW_XREG$.mean + noise
+
+  
+NEW_XREG_TSIB <- NEW_XREG[,c("GEnZ_Name","Hylak_id", "date", ".mean")] %>%
+  rename("Total_evap" = ".mean") %>%
+  distinct() %>% 
+  as_tsibble(key=c(GEnZ_Name, Hylak_id, Total_evap),  index = date)
+  
+ 
+final_xreg_forecast <- hierarch_arima_xreg %>% forecast(h = 12,  new_data = NEW_XREG_TSIB)
