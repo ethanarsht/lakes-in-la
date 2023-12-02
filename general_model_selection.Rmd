@@ -1,0 +1,26 @@
+---
+title: "Var_TS"
+author: "Jaskirat Kaur"
+date: "2023-11-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(forecast)
+library(sf)
+library(imputeTS)
+library(data.table)
+```
+
+```{r}
+st_layers("/Users/jaskiratkaur/Documents/TimeSeries/data/for_var/LakeATLAS_v10_pol_west.shp")
+```
+
+
+
+
