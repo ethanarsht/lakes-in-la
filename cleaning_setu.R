@@ -116,4 +116,31 @@ hierarch_arima_v2 <- progressr::with_progress(
 mo_forecast <- hierarch_arima_v2 %>% forecast(h=6)
 
 
-# Checking when zeroes and NAs stop being an issue
+mo_forecast |>
+  filter(!is_aggregated(GEnZ_Name), is_aggregated(Hylak_id)) |>
+  autoplot(
+    ts_hts |> filter(year(date) >= 2010),
+    level = c(80,95)
+  ) +
+  facet_wrap(vars(GEnZ_Name), scales = "free_y")
+
+
+#Hierarchical with xreg and no imputation
+ts_pre_tsib_xreg <- lake_df_ts[,c("date", "value", "evap_value", "GEnZ_Name", "Hylak_id")] %>% 
+  as_tsibble(key=c(GEnZ_Name, Hylak_id, evap_value),  index = date)
+
+hierarchy_tsib_xreg <- ts_pre_tsib_xreg %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(value),
+                                                Total_evap = sum(evap_value))
+
+hierarch_arima_xreg <- progressr::with_progress(
+  hierarchy_tsib %>% #filter(is_aggregated(Hylak_id), !is_aggregated(GEnZ_Name)) %>%
+    tsibble::fill_gaps() %>% 
+    model(mo_mod_xreg = ARIMA(log(Total_area) ~ 0 + PDQ(period = 12) + Total_evap, 
+                         stepwise = FALSE,
+                         order_constraint = p + q + P + Q <= 32 & (constant + d + D <= 4))) %>%
+    reconcile(mo = middle_out(mo_mod_xreg))
+)
+
+
+#Need to figure out how to pass xreg matrix
+xreg_forecast <- hierarch_arima_xreg %>% forecast(h = 12, Total_evap = rnorm(12, mean = 10, sd =3))
