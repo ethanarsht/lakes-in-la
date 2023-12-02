@@ -102,3 +102,7 @@ ts_hts <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(v
 ts_hts %>% filter(is_aggregated(Hylak_id)) %>% autoplot(Total_area) + 
   facet_wrap(vars(GEnZ_Name), scales = "free_y", ncol = 3) +
   theme(legend.position = "none")
+
+##Review this part below
+
+ts_hts_fcast <- ts_hts %>% filter(is_aggregated(Hylak_id)) %>% model(ets = ETS(Total_area)) %>% forecast()
