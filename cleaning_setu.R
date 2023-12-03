@@ -19,6 +19,8 @@ library(fpp3)
 library(fable)
 library(pracma)
 library(progressr)
+library(future)
+
 
 #For Ethan: Change working directory
 setwd("D:/Harris Course Work/Time Series Analysis/Project/lakes-in-la/lakes-in-la")
@@ -76,6 +78,9 @@ ts_pre_tsib <- lake_df_ts[,c("date", "value_imp", "evap_value", "GEnZ_Name", "Hy
   as_tsibble(key=c(GEnZ_Name, Hylak_id, evap_value),  index = date) %>% na_interpolation()
 
 
+ts_evap_tsib <- lake_df_ts[,c("date", "value_imp", "evap_value", "GEnZ_Name", "Hylak_id")] %>% 
+  as_tsibble(key=c(GEnZ_Name, Hylak_id, value_imp),  index = date) %>% na_interpolation()
+
 #Aggregating the tsibble object to reflect hierarchy
 
 hierarchy_tsib <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id, Total_area = sum(value_imp),
@@ -130,9 +135,19 @@ hierarch_arima_xreg <- progressr::with_progress(
 )
 
 
+hierarch_arima_test <- hierarchy_tsib %>%
+  filter_index("2018-01-01" ~ "2018-02-01") %>%
+  tsibble::fill_gaps()
+
+
+hierarch_arima_xreg_pred <- hierarch_arima_xreg %>%
+  forecast(new_data = hierarch_arima_test, h = 12)
 
 
 #Need to figure out how to pass xreg matrix
+
+
+##########################
 hierarchy_xreg_pred <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id,
                                                 Total_evap = sum(evap_value), Total_value = sum(value_imp))
 
@@ -148,23 +163,30 @@ noise <- rnorm(length(NEW_XREG), mean = 0, sd = 2)
 NEW_XREG$.mean = NEW_XREG$.mean + noise
 
   
-NEW_XREG_TSIB <- NEW_XREG[,c("GEnZ_Name","Hylak_id", "date", ".mean")] %>%
+NEW_XREG_TSIB <- NEW_XREG[,c("GEnZ_Name","Hylak_id","Total_value", "date", ".mean")] %>%
   rename("Total_evap" = ".mean") %>%
   distinct() %>% 
   as_tsibble(key=c(GEnZ_Name, Hylak_id, Total_evap),  index = date)
-  
- 
 final_xreg_forecast <- hierarch_arima_xreg %>% forecast(h = 12,  new_data = NEW_XREG_TSIB)
+
+#######################
+
+
+save(hierarch_arima_xreg, file = "hierarchical_model.rda")  
+ 
+
 
 
 
 ##Trying using train and tests sets:
 
 hierarchy_tsib_train <- hierarchy_tsib %>%
-  filter_index(~ "2015-12-01")
+  filter_index(~ "2017-12-01")
 
-hierarchy_tsib_test <- hierarchy_tsib %>%
-  filter_index("2016-01-01" ~ "2016-06-01")
+hierarch_arima_test <- hierarchy_tsib %>%
+  filter_index("2018-01-01" ~ .) %>%
+  tsibble::fill_gaps()
+
 
 hierarch_model_train <- progressr::with_progress(
   hierarchy_tsib_train %>% #filter(is_aggregated(Hylak_id), !is_aggregated(GEnZ_Name)) %>%
@@ -177,4 +199,44 @@ hierarch_model_train <- progressr::with_progress(
 
 final_test_forecast <- hierarch_model_train %>% 
   complete(hierarchy_tsib_test, date, Total_area, Total_evap) %>%
-  forecast(h = 3, new_data = hierarchy_tsib_test)
+  forecast(h = 4, new_data = hierarchy_tsib_test)
+
+
+####snaive object
+
+evap_group_names <- ts_evap_tsib %>% group_keys(Hylak_id) %>% pull(1)
+snaive_evap_groupwise <- ts_evap_tsib %>%
+  group_by(Hylak_id) %>%
+  group_split() %>%
+  set_names(evap_group_names) %>%
+  lapply(function(x){
+    forecast::snaive(x$evap_value, h = 12)$x
+  }
+  ) 
+
+val_group_names <- ts_pre_tsib %>% group_keys(Hylak_id) %>% pull(1)
+snaive_val_groupwise <- ts_pre_tsib %>%
+  group_by(Hylak_id) %>%
+  group_split() %>%
+  set_names(val_group_names) %>%
+  lapply(function(y){
+    forecast::snaive(y$value_imp, h = 12)$x
+  }
+  ) 
+
+
+
+df_snaive_val <- enframe(snaive_val_groupwise, name = "Hylak_id", value = "value")
+df_snaive_val_exp <- df_snaive_val %>% unnest(value)
+
+df_snaive_evap <- enframe(snaive_evap_groupwise, name = "Hylak_id", value = "evap_value")
+df_snaive_evap_exp <- df_snaive_evap %>% unnest(evap_value)
+
+
+
+
+
+hierarch_test_set <- ts_pre_tsib %>% aggregate_key(GEnZ_Name / Hylak_id,
+                                                     Total_evap = sum(evap_value), Total_value = sum(value_imp))
+
+
