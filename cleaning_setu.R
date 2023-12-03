@@ -155,3 +155,26 @@ NEW_XREG_TSIB <- NEW_XREG[,c("GEnZ_Name","Hylak_id", "date", ".mean")] %>%
   
  
 final_xreg_forecast <- hierarch_arima_xreg %>% forecast(h = 12,  new_data = NEW_XREG_TSIB)
+
+
+
+##Trying using train and tests sets:
+
+hierarchy_tsib_train <- hierarchy_tsib %>%
+  filter_index(~ "2015-12-01")
+
+hierarchy_tsib_test <- hierarchy_tsib %>%
+  filter_index("2016-01-01" ~ "2016-06-01")
+
+hierarch_model_train <- progressr::with_progress(
+  hierarchy_tsib_train %>% #filter(is_aggregated(Hylak_id), !is_aggregated(GEnZ_Name)) %>%
+    tsibble::fill_gaps() %>% 
+    model(mo_mod_train = ARIMA(log(Total_area) ~ xreg(Total_evap) + PDQ(period = 12), 
+                              stepwise = FALSE,
+                              order_constraint = p + q + P + Q <= 32 & (constant + d + D <= 4))) %>%
+    reconcile(mo = middle_out(mo_mod_train))
+)
+
+final_test_forecast <- hierarch_model_train %>% 
+  complete(hierarchy_tsib_test, date, Total_area, Total_evap) %>%
+  forecast(h = 3, new_data = hierarchy_tsib_test)
