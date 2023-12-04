@@ -1,0 +1,3023 @@
+Hylak_id,Lake_name,lake_class
+2,Great Bear,Cold and mesic
+3,Great Slave,Cold and mesic
+4,Winnipeg,Cold and mesic
+5,Superior,Cold and mesic
+6,Michigan,Cool temperate and dry
+7,Ontario,Cool temperate and dry
+8,Huron,Cold and mesic
+9,Erie,Cool temperate and moist
+19,Selawik,Extremely cold and mesic
+20,Netilling,Extremely cold and mesic
+21,Takiyuak,Extremely cold and mesic
+22,Contwoyto,Extremely cold and mesic
+23,Amadjuak,Extremely cold and mesic
+24,Aberdeen,Extremely cold and mesic
+25,Baker,Extremely cold and mesic
+26,Dubawnt,Extremely cold and mesic
+27,Martre,Cold and mesic
+28,Yathkyed,Extremely cold and mesic
+29,Nueltin,Extremely cold and mesic
+30,Kasba,Extremely cold and mesic
+31,Iliamna,Cold and mesic
+32,Wollaston,Cold and mesic
+33,Athabasca,Cold and mesic
+34,Claire,Cold and mesic
+35,Becharof,Extremely cold and mesic
+36,Cree,Cold and mesic
+37,Southern Indian,Cold and mesic
+38,Reindeer,Cold and mesic
+39,Lac a L'Eau Claire,Extremely cold and mesic
+40,Williston,Cold and mesic
+41,La Ronge,Cold and mesic
+42,Lesser Slave,Cold and mesic
+43,Caniapiscau Reservoir,Extremely cold and mesic
+44,Gods,Cold and mesic
+45,Laforge 1 Reservoir,Extremely cold and mesic
+46,Robert Bourassa Reservoir,Extremely cold and mesic
+47,La Grande 3 Reservoir,Extremely cold and mesic
+48,Moose,Cold and mesic
+49,Michikamau,Extremely cold and mesic
+50,Melville,Extremely cold and mesic
+51,Cedar,Cold and mesic
+52,Winnipegosis,Cold and mesic
+53,Manitoba,Cool temperate and dry
+54,Mistassini,Cold and mesic
+55,Manicouagan Reservoir,Extremely cold and mesic
+56,Seul,Cold and mesic
+57,Woods,Cool temperate and dry
+58,Nipigon,Cold and mesic
+59,Saint-Jean,Cold and mesic
+60,Gouin Reservoir,Cold and mesic
+61,Red Lake Reservoir,Cool temperate and dry
+62,Fort Berthold Reservoir,Cool temperate and dry
+63,Bras d'Or,Cold and mesic
+64,Champlain,Cool temperate and dry
+65,Oahe,Cool temperate and xeric
+66,Saint Clair,Cool temperate and moist
+67,Great Salt,Cool temperate and xeric
+68,Pontchartrain,Hot and dry
+69,Okeechobee,Hot and mesic
+70,Chapala,Hot and dry
+71,Managua,Extremely hot and xeric
+72,Nicaragua,Extremely hot and moist
+73,Guri Reservoir,Extremely hot and moist
+74,Brokopondo Reservoir,Extremely hot and moist
+75,Balbina Reservoir,Extremely hot and moist
+76,Tucurui Reservoir,Extremely hot and moist
+77,Sobradinho Reservoir,Extremely hot and xeric
+78,Titicaca,Cool temperate and dry
+79,Poopo,Cool temperate and dry
+80,Ilha Solteira Reservoir,Hot and mesic
+81,Porto Primavera Reservoir,Hot and mesic
+82,Itaipu,Hot and mesic
+83,Aperea Reservoir,Hot and mesic
+84,Salinas Grandes,Hot and dry
+85,Chiquita,Hot and dry
+86,Mirim,Hot and dry
+87,Buenos Aires,Cool temperate and dry
+88,San Martin,Cold and mesic
+89,Viedma,Cool temperate and dry
+90,Argentino,Cool temperate and dry
+179,Hazen,Extremely cold and mesic
+184,Crooked,Extremely cold and mesic
+186,Zeta,Extremely cold and mesic
+187,Angajurjualuk,Extremely cold and mesic
+188,Quartz,Extremely cold and mesic
+189,Tahiryuak,Extremely cold and mesic
+190,Namaycush,Extremely cold and mesic
+191,Nina Bang,Extremely cold and mesic
+192,Erichsen,Extremely cold and mesic
+193,Teshekpuk,Extremely cold and mesic
+197,Neergaure,Extremely cold and mesic
+199,Washburn,Extremely cold and mesic
+200,Tahoe,Extremely cold and mesic
+201,Quunnguq,Extremely cold and mesic
+202,Jayko,Extremely cold and mesic
+205,Jekyll,Extremely cold and mesic
+206,Eskimo North,Extremely cold and mesic
+207,Surrey,Extremely cold and mesic
+208,Labaz,Extremely cold and mesic
+210,Pangnikto,Extremely cold and mesic
+211,Netsilik,Extremely cold and mesic
+213,Eskimo Southern,Extremely cold and mesic
+216,Lady Melville,Extremely cold and mesic
+217,Hall,Extremely cold and mesic
+218,Bluenose,Extremely cold and mesic
+219,Sitidgi,Extremely cold and mesic
+223,Horton,Extremely cold and mesic
+224,Maunoir,Extremely cold and mesic
+226,MacNaughton,Extremely cold and mesic
+227,Aubry,Extremely cold and mesic
+228,Colville,Extremely cold and mesic
+230,Bois,Extremely cold and mesic
+231,Belot,Extremely cold and mesic
+233,Curtis,Extremely cold and mesic
+234,McAlpine Lane,Extremely cold and mesic
+235,Inland Lake,Extremely cold and mesic
+240,Garry (Lower),Extremely cold and mesic
+241,Rockinghorse,Extremely cold and mesic
+244,Garry( Upper),Extremely cold and mesic
+245,Pelly,Extremely cold and mesic
+246,Deep Rose,Extremely cold and mesic
+249,Hansine,Extremely cold and mesic
+253,Itchen,Extremely cold and mesic
+254,Mahony,Cold and mesic
+255,Nose,Extremely cold and mesic
+258,Hottah,Cold and mesic
+262,Imuruk Basin,Extremely cold and mesic
+265,Tehek,Extremely cold and mesic
+269,Yamba,Extremely cold and mesic
+270,Hardish,Cold and mesic
+271,Luran,Extremely cold and mesic
+273,Schultz,Extremely cold and mesic
+274,Mingo,Extremely cold and mesic
+275,Birch,Cold and mesic
+277,Beverly,Extremely cold and mesic
+278,Point,Extremely cold and mesic
+279,Gras,Extremely cold and mesic
+280,Whitehills,Extremely cold and mesic
+284,Marjorie,Extremely cold and mesic
+286,Blackwater,Cold and mesic
+287,Mackay,Extremely cold and mesic
+288,Ingray,Cold and mesic
+290,Aylmer,Extremely cold and mesic
+291,Keller,Cold and mesic
+293,Wharton,Extremely cold and mesic
+295,Pitz,Extremely cold and mesic
+297,Mallery,Extremely cold and mesic
+298,Grandin,Cold and mesic
+301,Faber,Cold and mesic
+302,Princess Mary,Extremely cold and mesic
+303,Tebesjuak,Extremely cold and mesic
+304,"Enemy, lake of the",Extremely cold and mesic
+307,Clinton Colden,Extremely cold and mesic
+309,Ford,Extremely cold and mesic
+311,Fletcher,Extremely cold and mesic
+314,Walmsley,Extremely cold and mesic
+316,Campbell,Extremely cold and mesic
+319,Tulemalu,Extremely cold and mesic
+321,Fish,Cold and mesic
+323,Tyrrell,Extremely cold and mesic
+324,Gordon,Cold and mesic
+326,Nutarawit,Extremely cold and mesic
+327,Artillery,Extremely cold and mesic
+331,Bulmer,Cold and mesic
+332,Kaminuriak,Extremely cold and mesic
+334,White Fish,Extremely cold and mesic
+335,Kamilukuak,Extremely cold and mesic
+336,Mosquito,Extremely cold and mesic
+337,Mary,Extremely cold and mesic
+340,Kaminak,Extremely cold and mesic
+341,Nowleye,Extremely cold and mesic
+342,Aggikani,Extremely cold and mesic
+344,Sid,Extremely cold and mesic
+345,Carey,Extremely cold and mesic
+346,Angikuni,Extremely cold and mesic
+348,Willow,Cold and mesic
+350,Barlow,Extremely cold and mesic
+352,Tazlina Lake,Extremely cold and mesic
+357,Boyd,Extremely cold and mesic
+358,North Henik,Extremely cold and mesic
+359,Nonacho,Cold and mesic
+362,Maguse,Extremely cold and mesic
+363,Kluane,Cold and mesic
+365,Laberge,Cold and mesic
+366,Firedrake,Extremely cold and mesic
+368,Hicks,Extremely cold and mesic
+369,Aishihik,Cold and mesic
+370,Ennadai,Extremely cold and mesic
+371,Watterson,Extremely cold and mesic
+372,South Henik,Extremely cold and mesic
+374,Kayigyalik Lake,Extremely cold and mesic
+375,Aropuk Lake,Extremely cold and mesic
+376,Nantais,Extremely cold and wet 2
+380,Kagalurpak Lake,Extremely cold and mesic
+382,Nunavakpak Lake,Extremely cold and mesic
+383,Wholdaia,Extremely cold and mesic
+385,Tatinnai,Extremely cold and mesic
+386,Trout,Cold and mesic
+387,Tathlina,Cold and mesic
+394,Teslin,Cold and mesic
+395,Snowbird,Extremely cold and mesic
+397,Buffalo,Cold and mesic
+399,Dall Lake,Extremely cold and mesic
+402,Tustumena Lake,Cold and mesic
+406,Lake Clark,Cold and mesic
+407,"Lakes Nuyakuk, Tikchik, Chauekuktuli",Extremely cold and mesic
+408,Baralzon,Extremely cold and mesic
+409,Selwyn,Cold and mesic
+410,Scott,Cold and mesic
+412,Tazin,Cold and mesic
+414,Bistcho,Cold and mesic
+419,Atlin,Cold and mesic
+420,Nejanilini,Extremely cold and mesic
+421,Lake Nerka,Extremely cold and mesic
+423,Payne,Extremely cold and mesic
+425,Black,Cold and mesic
+426,Kukaklek Lake,Extremely cold and mesic
+428,Riou,Cold and mesic
+430,Nonvianuk Lake,Extremely cold and mesic
+432,Faribault,Extremely cold and mesic
+433,Davy,Cold and mesic
+437,Tadouie,Extremely cold and mesic
+438,Hatchett,Cold and mesic
+439,Naknek,Extremely cold and mesic
+442,Lake Grosvenor,Extremely cold and mesic
+444,Brochet,Cold and mesic
+445,Pasfield,Cold and mesic
+451,Big Sand,Cold and mesic
+452,Minto,Extremely cold and mesic
+453,Upper Ugashik Lake,Extremely cold and mesic
+454,Lower Ugashik Lake,Extremely cold and mesic
+456,Gauer,Cold and mesic
+459,Barrington,Cold and mesic
+460,Lwe Moyne,Extremely cold and mesic
+462,Notigi Reservoir,Cold and mesic
+464,Baldock,Cold and mesic
+467,Wasekamio and Turnor,Cold and mesic
+468,Waskaiowaka,Cold and mesic
+471,Granville,Cold and mesic
+474,Castignon,Extremely cold and mesic
+475,Loche,Cold and mesic
+477,Stephens,Cold and mesic
+479,Split,Cold and mesic
+481,Guillaume-Delisle,Extremely cold and mesic
+484,North Wabasca,Cold and mesic
+485,Otelnuc,Extremely cold and mesic
+493,Ile-a-la-Crosse,Cold and mesic
+494,Utikuma,Cold and mesic
+498,Peter Pond,Cold and mesic
+499,Churchill,Cold and mesic
+500,Pinehouse,Cold and mesic
+506,Winefred,Cold and mesic
+507,Besnard,Cold and mesic
+516,Utik,Cold and mesic
+517,Babine,Cold and mesic
+520,Sipiwesk,Cold and mesic
+521,Canoe,Cold and mesic
+522,Knee,Cold and mesic
+523,Calling,Cold and mesic
+524,Plonge,Cold and mesic
+525,Bear,Cold and mesic
+527,Egg,Cold and mesic
+528,Takla,Cold and mesic
+530,Bienville,Extremely cold and mesic
+531,Biche,Cold and mesic
+532,Oxford,Cold and mesic
+534,Wapawekka,Cold and mesic
+535,Wekusko,Cold and mesic
+536,Primrose,Cold and mesic
+537,Deschambault,Cold and mesic
+538,Burton,Extremely cold and mesic
+540,Laforge 2,Extremely cold and mesic
+543,Edmund,Cold and mesic
+544,Walker,Cold and mesic
+545,Smoothstone,Cold and mesic
+547,Dore,Cold and mesic
+550,Reed,Cold and mesic
+551,Cold,Cold and mesic
+552,Athapapuskow,Cold and mesic
+553,Kiskittogisu,Cold and mesic
+554,Montreal,Cold and mesic
+557,Stuart,Cold and mesic
+558,Amisk,Cold and mesic
+559,Goose,Cold and mesic
+560,Julian,Extremely cold and mesic
+563,Beaver Hill,Cold and mesic
+564,Kiskitto,Cold and mesic
+565,Molson,Cold and mesic
+567,Red Sucker,Cold and mesic
+568,Cormorant,Cold and mesic
+569,Talbot,Cold and mesic
+570,Clearwater,Cold and mesic
+571,Little Sachigo,Cold and mesic
+573,Nipishich,Extremely cold and mesic
+574,Crean,Cold and mesic
+575,Delarondo,Cold and mesic
+576,Island,Cold and mesic
+577,Rocky,Cold and mesic
+578,Playgreen,Cold and mesic
+581,Cumberland,Cold and mesic
+582,Stevenson,Cold and mesic
+583,William,Cold and mesic
+584,Sachigo,Cold and mesic
+585,La Grande 4 Reservoir,Extremely cold and mesic
+586,Candle,Cold and mesic
+587,Big Trout,Cold and mesic
+588,Big Stone,Cold and mesic
+589,Tobin,Cold and mesic
+591,Nechako Reservoir,Cold and mesic
+592,Grand,Extremely cold and mesic
+594,Beaverhill,Cold and mesic
+596,Sakami,Extremely cold and mesic
+597,Ossokamanuan Reservoir,Extremely cold and mesic
+598,Opiscoteq,Extremely cold and mesic
+599,Eutsuk,Cold and mesic
+600,Nichicun,Extremely cold and mesic
+601,Wabush,Extremely cold and mesic
+604,Sandy,Cold and mesic
+606,Ashuanipi,Extremely cold and mesic
+607,Atikonak,Extremely cold and mesic
+611,Naococane,Extremely cold and mesic
+612,Weagamow,Cold and mesic
+614,Red Deer,Cool temperate and dry
+615,North Caribou,Cold and mesic
+617,Joseph,Extremely cold and mesic
+618,Swan,Cool temperate and dry
+619,Quesnel,Cold and mesic
+620,Pelican,Cool temperate and dry
+621,MacDowell,Cold and mesic
+623,Opinaca Reservoir,Cold and mesic
+624,Eastmain Reservoir,Cold and mesic
+628,Kinbasket,Cold and mesic
+630,Fleur de May,Extremely cold and mesic
+632,Waterhen,Cool temperate and dry
+634,Petit Manicouagan,Extremely cold and mesic
+635,St. Martin,Cool temperate and dry
+636,Chilko,Cold and mesic
+638,Pletipi,Extremely cold and mesic
+641,Dauphin,Cool temperate and dry
+643,Diefenbaker,Cool temperate and dry
+644,St. Joseph,Cold and mesic
+645,Albaniel,Cold and mesic
+646,Trout,Cold and mesic
+648,Revelstoke,Cold and mesic
+649,Evans,Cold and mesic
+650,Red,Cold and mesic
+651,Adams,Cool temperate and dry
+653,Shuswap,Cool temperate and dry
+657,Last Mountain,Cool temperate and dry
+659,Savant,Cold and mesic
+661,Kempt,Extremely cold and mesic
+664,Assinica,Cold and mesic
+665,Kesagami,Cold and mesic
+666,Poncheville,Cold and mesic
+667,Lac du Bonnet Reservoir,Cool temperate and dry
+670,Umfreville,Cool temperate and dry
+672,Ste. Anne,Extremely cold and mesic
+674,Sturgeon,Cold and mesic
+676,Matagami,Cold and mesic
+677,Minnitaki,Cold and mesic
+679,Chibougamau,Cold and mesic
+680,Peribonka,Cold and mesic
+683,Goeland,Cold and mesic
+685,Wabigoon,Cool temperate and dry
+686,Manic Trois,Cold and mesic
+687,Eagle,Cool temperate and dry
+688,Outardes 4 Reservoir,Cold and mesic
+690,Waswanipi,Cold and mesic
+695,Okanagan,Cool temperate and dry
+696,Kootenay,Cool temperate and dry
+697,Pipmuacan Reservoir,Cold and mesic
+698,Arrow,Cool temperate and dry
+700,Harrison,Cool temperate and moist
+702,Grand,Cold and mesic
+705,Mille Lacs,Cold and mesic
+706,Red Indian,Cold and mesic
+707,Abitibi,Cold and mesic
+708,Parent,Cold and mesic
+709,Dog,Cold and mesic
+710,Rainy,Cool temperate and dry
+712,Nighthawk,Cold and mesic
+714,Malartic,Cold and mesic
+715,Lake Koocanusa,Cool temperate and dry
+716,Preissac,Cold and mesic
+717,Victoria,Extremely cold and mesic
+718,Lac La Croix,Cool temperate and dry
+719,Pend Oreille Lake,Cool temperate and dry
+720,Meelpaeg,Cold and mesic
+721,Fort Peck,Cool temperate and dry
+722,Vermilion Lake,Cool temperate and dry
+723,Devils Lake,Cool temperate and dry
+724,Franklin D. Roosevelt,Cool temperate and xeric
+725,Banks Lake,Cool temperate and xeric
+726,Long Pond,Cold and mesic
+727,Lake Chelan,Cool temperate and xeric
+728,Preissac,Cold and mesic
+729,Coeur d'Alene Lake,Cool temperate and dry
+730,Flathead Lake,Cool temperate and dry
+732,Dozois,Cold and mesic
+733,Quinze,Cold and mesic
+734,Kempt,Cold and mesic
+735,Winnibigoshish,Cool temperate and dry
+736,Cabonga,Cold and mesic
+737,Timiskaming,Cold and mesic
+738,Leech Lake Reservoir,Cool temperate and dry
+739,Temagam,Cold and mesic
+741,Baskatong,Cold and mesic
+742,Wanapitei,Cold and mesic
+743,Canyon Ferry Lake,Cool temperate and dry
+744,St. Peter,Cold and mesic
+745,Nipissing,Cold and mesic
+746,Mille Lacs,Cool temperate and dry
+747,Chesuncook Lake,Cold and mesic
+748,Grand,Cold and mesic
+750,Manitou,Cold and mesic
+751,Moosehead Lake,Cold and mesic
+754,St. Francis,Cold and mesic
+756,Joseph,Cold and mesic
+757,Muskoka,Cold and mesic
+758,Lake Saint Lawrence,Cold and mesic
+759,Simcoe,Cool temperate and dry
+760,Yellowstone Lake,Cold and mesic
+762,Winnebago,Cool temperate and dry
+763,Rossignol,Cold and mesic
+764,Lake Sharpe,Cool temperate and xeric
+765,Jackson Lake,Cold and mesic
+766,Head Gates Reservoir,Cold and mesic
+767,Lake George,Cool temperate and dry
+768,Lake Winnipesaukee,Cold and mesic
+769,Malheur Lake,Cool temperate and dry
+770,Oneida Lake,Cool temperate and moist
+771,Harney Lake,Cool temperate and dry
+772,Cayuga Lake,Cool temperate and dry
+773,Seneca Lake,Cool temperate and dry
+774,Summer Lake,Cool temperate and dry
+775,American Falls,Cool temperate and dry
+776,Lake Abert,Cool temperate and dry
+777,Upper Klamath Lake,Cool temperate and dry
+778,Bear Lake,Cool temperate and dry
+780,Goose Lake,Cool temperate and dry
+781,Lake McConaughy,Cool temperate and xeric
+783,Bonneville Salt Flat,Cool temperate and xeric
+784,Flaming Gorge,Cool temperate and dry
+786,Shasta Lake,Warm temperate and mesic
+787,Eagle Lake,Cool temperate and dry
+788,Utah Lake,Cool temperate and xeric
+789,Honey Lake,Cool temperate and xeric
+790,Canyon,Cool temperate and dry
+791,Pyramid Lake,Cool temperate and xeric
+792,Tahoe,Cool temperate and dry
+793,Sevier,Cool temperate and xeric
+794,Clear Lake,Warm temperate and mesic
+795,Walker Lake,Warm temperate and mesic
+796,Harry S. Truman Reservoir,Warm temperate and mesic
+797,Osage,Warm temperate and mesic
+798,Mono Lake,Cool temperate and dry
+800,Lake Barkley,Warm temperate and mesic
+801,Kentucky,Warm temperate and mesic
+802,Lake Powell,Warm temperate and xeric
+803,Lake Cumberland,Warm temperate and mesic
+804,Table Rock Lake,Warm temperate and mesic
+805,John H. Kerr Reservoir,Warm temperate and mesic
+806,Grand Lake,Warm temperate and mesic
+807,Oologah Lake,Warm temperate and mesic
+808,Bull Shoals Lake,Warm temperate and mesic
+809,Mead,Hot and arid
+810,Watts Bar Lake,Warm temperate and mesic
+811,Greers Ferry Lake,Warm temperate and mesic
+812,Lake Mattamuskeet,Warm temperate and mesic
+813,Lake Norman,Warm temperate and mesic
+814,Robert S. Kerr Reservoir,Warm temperate and mesic
+815,Eufaula Lake,Warm temperate and mesic
+816,Chickamauga Lake,Warm temperate and mesic
+817,Pickwick Lake,Warm temperate and mesic
+818,Wheeler Lake,Warm temperate and mesic
+819,Lake Ouachita,Warm temperate and mesic
+820,Guntersville Lake,Warm temperate and mesic
+821,Sardis Lake,Warm temperate and mesic
+822,Hartwell Lake,Warm temperate and mesic
+823,Lake Sidney Lanier,Warm temperate and mesic
+824,Lake Murray,Warm temperate and mesic
+825,Lake Texoma,Hot and dry
+826,Grenada Lake,Warm temperate and mesic
+827,J. Strom Thurmond Lake,Warm temperate and mesic
+828,Lake Marion,Hot and dry
+829,Salton,Hot and arid
+830,Lake Moultrie,Hot and dry
+831,Elephant Butte Reservoir,Warm temperate and xeric
+832,Lake Tawakoni,Hot and dry
+833,Lake Martin,Warm temperate and mesic
+834,Laguna Salada,Hot and arid
+835,Cedar Creek Reservoir,Hot and dry
+836,Richland-Chambers Reservoir,Hot and dry
+837,Eufaula,Hot and dry
+838,Toledo Bend Reservoir,Hot and dry
+839,Sam Rayburn Reservoir,Hot and dry
+840,Aguas Termales,Warm temperate and xeric
+841,Lake Livingston,Hot and dry
+842,Lake Maurepas,Hot and dry
+843,Grand Lake,Hot and dry
+844,Calcasieu Lake,Hot and dry
+846,White Lake,Hot and dry
+847,Lake Salvador,Hot and dry
+848,Amistad Reservoir,Hot and arid
+849,Lake George,Hot and mesic
+852,Lake Apopka,Hot and mesic
+854,Lake Kissimmee,Hot and mesic
+855,Falcon Reservoir,Hot and mesic
+856,Adjuntas,Extremely hot and moist
+857,Windsor,Extremely hot and moist
+858,Cuitzeo,Hot and dry
+859,Saumatre,Extremely hot and xeric
+860,Enriquillo,Extremely hot and xeric
+861,Inhernillo,Extremely hot and xeric
+862,Presa Miguel Aleman,Extremely hot and moist
+863,Miguel de la Madrid,Extremely hot and moist
+864,Malpaso,Extremely hot and moist
+865,Peten Itza,Extremely hot and moist
+866,Angostura Reservoir,Extremely hot and moist
+867,Izabal,Extremely hot and moist
+870,Atitla,Hot and dry
+872,Guajaro,Extremely hot and xeric
+873,Valencia,Extremely hot and moist
+874,Gatun,Extremely hot and moist
+876,Zapatosa,Extremely hot and moist
+879,Guarico,Extremely hot and xeric
+882,Caruachi Reservoir,Extremely hot and xeric
+883,Novo,Extremely hot and moist
+886,Baia do Caxiuana,Extremely hot and moist
+892,Lago Grande Do Curuai,Extremely hot and moist
+896,Amana,Extremely hot and moist
+900,Grande de Manacapuru,Extremely hot and moist
+902,Tefe,Extremely hot and moist
+904,Badajos,Extremely hot and moist
+905,Biarini,Extremely hot and moist
+906,Mamia,Extremely hot and moist
+907,Coari,Extremely hot and moist
+908,Aiapua,Extremely hot and moist
+909,Taciula,Extremely hot and moist
+912,Lagoa Quixere,Extremely hot and xeric
+914,Grajau,Extremely hot and xeric
+915,Itaparica Reservoir,Extremely hot and moist
+916,Junin,Cold and mesic
+922,Serra da Mesa Reservoir,Extremely hot and moist
+924,Arapa,Cool temperate and dry
+927,Mandiora,Extremely hot and moist
+928,Tres Marias Reservoir,Hot and mesic
+931,Sao Simao Reservoir,Extremely hot and moist
+933,Lago Coipasa,Cool temperate and dry
+934,Agua Vermelha Reservoir,Extremely hot and moist
+937,Salar de Uyuni,Cool temperate and dry
+939,Peixoto,Hot and mesic
+941,Salar de Uyuni,Cool temperate and dry
+942,Tres Irmaos Reservoir,Hot and mesic
+943,Furnas,Hot and dry
+945,Bariri,Hot and mesic
+946,Promissao Reservoir,Hot and mesic
+947,Feia,Hot and mesic
+948,Tiete,Hot and dry
+950,Iepe,Hot and mesic
+951,Araruama,Hot and mesic
+952,Itarare,Hot and dry
+953,Barra Bonita,Hot and dry
+954,Paraibuna,Hot and dry
+955,Punta Negra,Cool temperate and xeric
+959,Hondo,Hot and dry
+960,Barragem Passo Fundo,Hot and dry
+961,Real,Hot and dry
+962,Itapeva,Hot and dry
+963,Dos Ouadros,Hot and dry
+964,Grande Reservoir,Hot and dry
+966,Negro Reservoir,Hot and dry
+968,Lagoa Mangueira,Warm temperate and mesic
+969,Negra,Warm temperate and mesic
+971,Llancanelo,Cool temperate and xeric
+973,Monte,Warm temperate and mesic
+974,Epecuen,Warm temperate and xeric
+978,Los Barreales,Warm temperate and mesic
+979,Mari Menuco,Warm temperate and mesic
+980,Pelegrini,Warm temperate and mesic
+981,Chocon Reservoir,Warm temperate and mesic
+982,Villarrica,Cool temperate and moist
+983,Calafquem,Cool temperate and moist
+984,Huechulafquen,Cool temperate and moist
+985,Ranguipulli,Cool temperate and moist
+987,Ranco,Warm temperate and mesic
+988,Puyehue,Cool temperate and moist
+989,Rupanco,Warm temperate and mesic
+990,Nahuel Huapi,Cool temperate and moist
+991,Todos los Santos,Cool temperate and moist
+992,Llanquihue,Cool temperate and moist
+993,Yelcho,Cool temperate and moist
+994,General Vintter,Cold and mesic
+995,Musters,Cool temperate and xeric
+996,Colhue Huapi,Cool temperate and xeric
+997,Presidente Rios,Cold and wet
+999,Cochrane,Cool temperate and dry
+1001,Cardiel,Cool temperate and dry
+1003,Toro,Cold and mesic
+1004,Blanca,Cold and mesic
+1005,Blanc,Cold and mesic
+1006,Fagnano,Cold and mesic
+2749,Brown,Extremely cold and mesic
+3039,Imuruk Lake,Extremely cold and mesic
+3411,St. Therese,Cold and mesic
+3567,Lake Minchumina,Cold and mesic
+3816,Tetlin Lake,Cold and mesic
+4006,Lake Louise,Cold and mesic
+4078,Nunavakanuk Lake,Extremely cold and mesic
+4180,Klutina Lake,Extremely cold and mesic
+4217,Arhymot Lake,Extremely cold and mesic
+4232,Kgun Lake,Extremely cold and mesic
+4246,Nuigalak Lake,Extremely cold and mesic
+4309,Whitefish Lake,Extremely cold and mesic
+4354,Chakachamna Lake,Extremely cold and mesic
+4401,Takslesluk Lake,Extremely cold and mesic
+4483,Nunavakanukakslak Lake,Extremely cold and mesic
+4577,Kenai Lake,Cold and mesic
+4605,Skilak Lake,Cold and mesic
+4622,Kegum Kagati Lake,Extremely cold and mesic
+4689,Chikuminuk Lake,Extremely cold and mesic
+4754,Couture,Extremely cold and mesic
+4882,Lake Beverley,Extremely cold and mesic
+4974,Lake Aleknagik,Extremely cold and mesic
+5008,Nunavaugaluk Lake,Extremely cold and mesic
+5130,Tasiataq,Extremely cold and mesic
+5203,Lake Brooks,Extremely cold and mesic
+5671,Kamuchawie,Cold and mesic
+5911,Sisipuk,Cold and mesic
+6236,Keeley,Cold and mesic
+6334,Kistigan,Cold and mesic
+6721,La Grande 1,Extremely cold and mesic
+6821,Wabamun,Cold and mesic
+7012,Brazeau Reservoir,Cold and mesic
+7014,Pigeon,Cold and mesic
+7035,Brazeau Canal,Cold and mesic
+7243,Abraham,Cold and mesic
+7274,Charlotte,Cold and mesic
+7547,Lake Minnewanka,Cold and mesic
+7658,Spray Lake,Extremely cold and mesic
+7728,Seton Lake,Cool temperate and dry
+7874,Duncan,Cold and mesic
+7886,Waconich,Cold and mesic
+7960,Grasset,Cold and mesic
+7974,Whatshan Lake,Cold and mesic
+8052,Outardes 3,Cold and mesic
+8171,Outardes 2,Cold and mesic
+8212,Deer,Cold and mesic
+8219,Osoyoos Lake,Cool temperate and xeric
+8267,La Mothe,Cold and mesic
+8278,White Lake,Cold and mesic
+8282,J. Clark Salyer Reservoir,Cool temperate and dry
+8286,Fresno,Cool temperate and dry
+8297,Nelson,Cool temperate and dry
+8306,Priest Lake,Cool temperate and dry
+8313,Lake Darling,Cool temperate and dry
+8339,Hungry Horse,Cold and mesic
+8343,Lake Elwell,Cool temperate and dry
+8346,Agassiz Pool,Cool temperate and dry
+8349,Lac Kenogami,Cold and mesic
+8358,Lake Alice,Cool temperate and dry
+8394,Basswood Lake,Cool temperate and dry
+8395,Nett Lake River,Cool temperate and dry
+8478,Lake Washington,Warm temperate and mesic
+8501,Cass Lake,Cool temperate and dry
+8506,Upper Cushman,Cool temperate and moist
+8533,Kachess Lake,Cold and mesic
+8535,Cle Elum Lake,Cold and mesic
+8538,Mitchinamecus,Cold and mesic
+8556,Moses Lake,Cool temperate and xeric
+8565,Lake Ashtabula,Cool temperate and dry
+8580,Potholes,Cool temperate and xeric
+8606,Teaureau,Cold and mesic
+8617,Sandy Lake Reservoir,Cool temperate and dry
+8630,Pine River Reservoir,Cool temperate and dry
+8643,Lake Tschida,Cool temperate and dry
+8656,Dworshak Reservoir,Cool temperate and dry
+8662,Eagle Lake,Cold and mesic
+8668,Dead Lake,Cool temperate and dry
+8674,Superior Falls,Cold and mesic
+8675,Gull Lake Reservoir,Cool temperate and dry
+8706,Georgetown Lake,Cold and mesic
+8715,Michigamme Reservoir,Cold and mesic
+8718,Chamberlain Lake,Cold and mesic
+8723,Nelson Lake,Cool temperate and dry
+8731,Turtle Flambeau Flowage,Cold and mesic
+8743,Indian Lake,Cold and mesic
+8744,Peavy Pond,Cool temperate and dry
+8747,Brevoort Lake,Cool temperate and dry
+8768,Winter,Cool temperate and dry
+8786,Shadehill,Cool temperate and dry
+8807,Elbow Lake,Cold and mesic
+8819,Mullet Lake,Cool temperate and dry
+8832,Harris,Cold and mesic
+8838,Burt Lake,Cool temperate and dry
+8841,Lac Magog,Cold and mesic
+8848,Lake Charlevoix,Cool temperate and dry
+8851,Bighorn Lake,Cool temperate and xeric
+8852,Big Stone Lake,Cool temperate and dry
+8861,Memphremegog,Cold and mesic
+8869,Long Falls,Cold and mesic
+8876,Grand Lake,Cold and mesic
+8878,Marsh Lake,Cool temperate and dry
+8892,Lac Qui Parle Reservoir,Cool temperate and dry
+8897,Clark Canyon,Cool temperate and dry
+8910,Paint Creek,Cool temperate and dry
+8917,Great Moose Lake,Cold and mesic
+8923,Mooselookmeguntic Lake,Cold and mesic
+8924,Hebgen Lake,Cold and mesic
+8928,Torch Lake,Cool temperate and dry
+8933,Brownlee,Cool temperate and xeric
+8945,Belle Fourche,Cool temperate and dry
+8965,Billy Chinook Lake,Cool temperate and xeric
+8973,Messalonskee Lake,Cold and mesic
+8978,Lake Cascade,Cool temperate and dry
+8979,Lake Desmet,Cool temperate and dry
+8980,Buffalo Bill,Cool temperate and dry
+8985,Green Peter Lake,Cool temperate and moist
+8991,Island Park,Cold and mesic
+8993,Houghton Lake,Cool temperate and dry
+8994,Keyhole,Cool temperate and dry
+9003,Rice,Cool temperate and dry
+9004,Deadwood,Cold and mesic
+9007,Number 8,Cold and mesic
+9011,Upper Saranac Lake,Cold and mesic
+9013,Raquette Pond,Cold and mesic
+9019,Fern Ridge Lake,Warm temperate and mesic
+9023,Petenwell Lake,Cool temperate and dry
+9031,Lookout Point Lake,Warm temperate and mesic
+9034,Siltcoos Lake,Cool temperate and moist
+9038,Castle Rock Lake,Cool temperate and dry
+9040,Princeton,Cool temperate and dry
+9043,Crane Prairie,Cold and mesic
+9047,Wickiup Reservoir,Cool temperate and dry
+9050,Lake Owyhee,Cool temperate and xeric
+9055,Warm Springs,Cool temperate and xeric
+9056,Lake Lowell,Cool temperate and xeric
+9061,Crescent Lake,Cold and mesic
+9062,Winnisquam Lake,Cold and mesic
+9066,Boysen,Cool temperate and xeric
+9068,Lake Sunapee,Cold and mesic
+9070,Anderson Ranch,Cool temperate and dry
+9072,Angostura,Cool temperate and xeric
+9073,Palisades,Cool temperate and dry
+9074,Sacandaga Reservoir,Cold and mesic
+9079,Bull Lake,Cool temperate and dry
+9085,Saratoga Lake,Cool temperate and dry
+9086,Tenny Park Locks,Cool temperate and dry
+9088,Blackfoot River Reservoir,Cool temperate and dry
+9089,Massabesic Lake,Cool temperate and dry
+9092,Crater Lake,Cold and mesic
+9095,Fremont Lake,Cold and mesic
+9098,Lewis and Clark Lake,Cool temperate and xeric
+9104,Lost Creek Lake,Cool temperate and xeric
+9105,Lake Walcott,Cool temperate and dry
+9116,Glendo,Cool temperate and dry
+9117,Pathfinder,Cool temperate and dry
+9118,Hart Lake,Cool temperate and dry
+9119,Wachusett Reservoir,Cool temperate and moist
+9124,Quabbin Reservoir,Cold and mesic
+9125,Gerber,Cool temperate and dry
+9127,Seminoe,Cool temperate and dry
+9128,Drews Reservoir,Cool temperate and dry
+9129,Chautauqua Lake,Cool temperate and moist
+9130,Pepacton Reservoir,Cold and mesic
+9132,Fontenelle,Cool temperate and dry
+9138,Clear Lake Reservoir,Cool temperate and dry
+9141,Post Lake,Cool temperate and dry
+9143,Allegheny Reservoir,Cold and mesic
+9146,Coralville Lake,Cool temperate and moist
+9147,Wild Horse Reservoir,Cool temperate and dry
+9151,Pymatuning Reservoir,Cool temperate and dry
+9154,Candlewood Lake,Cool temperate and moist
+9156,Willard,Cool temperate and xeric
+9157,Lake Red Rock,Cool temperate and moist
+9160,Mosquito Creek Lake,Cool temperate and moist
+9161,Shenango River Lake,Cool temperate and moist
+9163,Braidwood Station Cooling Pond,Cool temperate and moist
+9167,Berlin Lake,Cool temperate and moist
+9168,Lake Arthur,Cool temperate and dry
+9169,Rathbun Lake,Cool temperate and moist
+9172,Clair Engle Lake,Warm temperate and mesic
+9176,Mississinewa Lake,Cool temperate and moist
+9180,Whiskeytown,Warm temperate and mesic
+9184,Rye Patch Reservoir,Cool temperate and xeric
+9186,Raystown Lake,Cool temperate and moist
+9187,Sanborn Draw,Cool temperate and xeric
+9188,Mountain Meadows Reservoir,Cool temperate and dry
+9190,Alum Creek Lake,Cool temperate and moist
+9191,Swanson Lake,Cool temperate and xeric
+9192,Clinton Lake,Cool temperate and moist
+9193,Lake Granby,Cold and mesic
+9194,Strawberry,Cool temperate and dry
+9197,Harlan County Lake,Cool temperate and xeric
+9199,Senecaville Lake,Cool temperate and moist
+9200,Lake Davis,Cool temperate and dry
+9201,Lake Decatur,Warm temperate and mesic
+9202,Black Butte Lake,Warm temperate and xeric
+9204,Lake Springfield,Warm temperate and mesic
+9205,Kirwin,Cool temperate and xeric
+9208,Lake Oroville,Warm temperate and mesic
+9209,Mark Twain Lake,Warm temperate and mesic
+9211,Caesar Creek Lake,Cool temperate and moist
+9212,Stampede,Cool temperate and dry
+9213,Waconda Lake,Warm temperate and mesic
+9214,Lahontan,Cool temperate and xeric
+9216,Brookville Lake,Cool temperate and moist
+9217,Lake Shelbyville,Warm temperate and mesic
+9218,Webster,Cool temperate and xeric
+9219,Smithville Lake,Warm temperate and mesic
+9220,Bullards Bar,Warm temperate and mesic
+9224,Tuttle Creek Lake,Warm temperate and mesic
+9226,Perry Lake,Warm temperate and mesic
+9228,Milford Lake,Warm temperate and mesic
+9229,Monroe Lake,Warm temperate and mesic
+9231,Wilson Lake,Warm temperate and mesic
+9232,Clinton Lake,Warm temperate and mesic
+9233,Eleven Mile,Cold and mesic
+9234,Cedar Bluff,Warm temperate and mesic
+9235,Folsom Lake,Warm temperate and xeric
+9237,Hillsdale Lake,Warm temperate and mesic
+9238,Pomona Lake,Warm temperate and mesic
+9239,Carlyle Lake,Warm temperate and mesic
+9240,Kanopolis Lake,Warm temperate and mesic
+9242,Melvern Lake,Warm temperate and mesic
+9243,Lake Berryessa,Warm temperate and xeric
+9244,Blue Mesa,Cool temperate and dry
+9246,Patoka Lake,Warm temperate and mesic
+9248,Marion Lake,Warm temperate and mesic
+9252,Pueblo,Cool temperate and xeric
+9254,John Redmond Lake,Warm temperate and mesic
+9255,Blue Lake,Cool temperate and xeric
+9259,New Hogan Lake,Warm temperate and xeric
+9260,Cave Run Lake,Warm temperate and mesic
+9262,John Martin Reservoir,Cool temperate and xeric
+9264,Rend Lake,Warm temperate and mesic
+9265,Lake Anna,Warm temperate and mesic
+9266,Taylorsville Lake,Warm temperate and mesic
+9267,New Melones,Warm temperate and xeric
+9268,Pomme de Terre Lake,Warm temperate and mesic
+9269,El Dorado Lake,Warm temperate and mesic
+9270,Cheney,Warm temperate and mesic
+9271,Crab Orchard Lake,Warm temperate and mesic
+9272,Don Pedro Reservoir,Warm temperate and xeric
+9273,Stockton Lake,Warm temperate and mesic
+9274,Rough River Lake,Warm temperate and mesic
+9275,Lake Crowley,Cool temperate and dry
+9276,Lake McClure,Warm temperate and xeric
+9277,McPhee,Cool temperate and dry
+9282,Nolin Lake,Warm temperate and mesic
+9284,Green River Lake,Warm temperate and mesic
+9289,San Luis Reservoir,Warm temperate and xeric
+9290,Smith Mountain Lake,Warm temperate and mesic
+9291,Millerton Lake,Warm temperate and xeric
+9292,Laurel Lake,Warm temperate and mesic
+9294,Wappapello Lake,Warm temperate and mesic
+9295,Barren River Lake,Warm temperate and mesic
+9296,Copan Lake,Warm temperate and mesic
+9297,Pine Flat Lake,Warm temperate and xeric
+9298,Navajo,Cool temperate and xeric
+9299,Great Salt Plains Lake,Warm temperate and mesic
+9300,Kaw Lake,Warm temperate and mesic
+9301,Heron,Cool temperate and dry
+9305,Dale Hollow Lake,Warm temperate and mesic
+9306,South Holston Lake,Warm temperate and mesic
+9308,Lake Gaston,Warm temperate and mesic
+9312,Boone Lake,Warm temperate and mesic
+9313,Beaver Lake,Warm temperate and mesic
+9315,Skiatook Lake,Warm temperate and mesic
+9317,Watauga Lake,Warm temperate and mesic
+9319,Lake Hudson,Warm temperate and mesic
+9321,Old Hickory Lake,Warm temperate and mesic
+9322,Norfork Lake,Warm temperate and mesic
+9323,Abiquiu Reservoir,Cool temperate and xeric
+9324,Lake Hudson,Warm temperate and mesic
+9325,Norris Lake,Warm temperate and mesic
+9326,Cherokee Lake,Warm temperate and mesic
+9327,J. Percy Priest Lake,Warm temperate and mesic
+9328,Keystone Lake,Warm temperate and mesic
+9330,Center Hill Lake,Warm temperate and mesic
+9331,Canton Lake,Warm temperate and mesic
+9332,Douglas Lake,Warm temperate and mesic
+9333,Falls Lake,Warm temperate and mesic
+9334,Melton Hill Lake,Warm temperate and mesic
+9335,Fort Gibson Lake,Warm temperate and mesic
+9336,Lake Hickory,Warm temperate and mesic
+9339,Tellico Lake,Warm temperate and mesic
+9340,Phelps Lake,Warm temperate and mesic
+9342,Bridgewater,Warm temperate and mesic
+9343,Lake Meredith,Warm temperate and mesic
+9344,B. Everett Jordan Lake,Warm temperate and mesic
+9345,Isabella Lake,Warm temperate and xeric
+9347,High Rock Lake,Warm temperate and mesic
+9348,Tenkiller Lake,Warm temperate and mesic
+9350,Foss,Warm temperate and mesic
+9351,Normandy Lake,Warm temperate and mesic
+9352,Fontana Lake,Warm temperate and mesic
+9353,Lake Badin,Warm temperate and mesic
+9354,Conchas Lake,Warm temperate and mesic
+9356,Woods Reservoir,Warm temperate and mesic
+9357,Dardanelle Lake,Warm temperate and mesic
+9358,Lake Thunderbird,Warm temperate and mesic
+9360,Lake Mohave,Hot and arid
+9362,Fort Cobb,Warm temperate and xeric
+9363,Hiwassee Lake,Warm temperate and mesic
+9364,Blue Mountain Lake,Warm temperate and mesic
+9365,Santa Rosa Lake,Warm temperate and mesic
+9366,Wylie,Warm temperate and mesic
+9367,Chatuge Lake,Warm temperate and mesic
+9368,Nickajack Lake,Warm temperate and mesic
+9370,Jocassee,Warm temperate and mesic
+9371,Wister Lake,Warm temperate and mesic
+9372,Lake Altus,Warm temperate and xeric
+9375,Lake Keowee,Warm temperate and mesic
+9378,Arkabutla Lake,Warm temperate and mesic
+9380,Tom Steed,Warm temperate and xeric
+9384,Cedar Creek Reservoir,Warm temperate and mesic
+9385,Bay Springs Lake,Warm temperate and mesic
+9387,Lake Hamilton,Warm temperate and mesic
+9389,Wateree Lake,Warm temperate and mesic
+9390,McGee Creek,Warm temperate and mesic
+9392,Lake Havasu,Hot and arid
+9393,Parr,Warm temperate and mesic
+9395,Big Bear Lake,Cool temperate and dry
+9396,Waurika Lake,Warm temperate and xeric
+9398,Degray Lake,Warm temperate and mesic
+9400,Weiss Lake,Warm temperate and mesic
+9403,Allatoona Lake,Warm temperate and mesic
+9404,Enid Lake,Warm temperate and mesic
+9405,Lake Greeson,Warm temperate and mesic
+9406,Broken Bow Lake,Warm temperate and mesic
+9407,Pine Creek Lake,Warm temperate and mesic
+9410,Richard B. Russell Lake,Warm temperate and mesic
+9411,Hugo Lake,Hot and dry
+9412,Smith,Warm temperate and mesic
+9414,Pat Mayse Lake,Hot and dry
+9417,Henry,Warm temperate and mesic
+9419,Lake Kemp,Warm temperate and xeric
+9420,Millwood Lake,Hot and dry
+9422,Roosevelt Lake,Hot and dry
+9428,Logan Martin Lake,Warm temperate and mesic
+9430,Ray Roberts Lake,Hot and dry
+9431,Laurens Shoals,Hot and dry
+9434,Texarkana Lake,Hot and dry
+9436,Lake Tuscaloosa,Warm temperate and mesic
+9437,R.L. Harris Reservoir,Warm temperate and mesic
+9440,San Carlos Lake,Hot and dry
+9441,Furman Shoals,Hot and dry
+9443,Lewisville Lake,Hot and dry
+9445,Lake Erling,Hot and dry
+9446,Lavon Lake,Hot and dry
+9452,West Point Lake,Warm temperate and mesic
+9453,Caballo,Warm temperate and xeric
+9455,Possum Kingdom,Warm temperate and xeric
+9456,Hubbard Creek Lake,Warm temperate and xeric
+9457,Lake Fork Reservoir,Hot and dry
+9458,Mitchell Lake,Hot and dry
+9460,Lake Ray Hubbard,Hot and dry
+9462,Lake of the Pines,Hot and dry
+9463,Lake Claiborne,Hot and dry
+9464,Bayou Darbonne Reservoir,Hot and dry
+9465,Caddo Lake,Hot and dry
+9466,Lake Harding,Hot and dry
+9469,Lake Jordan,Hot and dry
+9470,Lake J.B. Thomas,Warm temperate and xeric
+9473,Cross Lake,Hot and dry
+9474,Okatibbee Lake,Hot and dry
+9475,Ross R. Barnett Reservoir,Hot and dry
+9478,Lake Bistineau,Hot and dry
+9483,Caney Lake,Hot and dry
+9484,Palestine,Hot and dry
+9486,Lake Murvaul,Hot and dry
+9491,Black Lake Bayou Reservoir,Hot and dry
+9492,Lake Whitney,Hot and dry
+9493,Lake Blackshear,Hot and dry
+9495,Lake Brownwood,Warm temperate and xeric
+9500,Catahoula Lake,Hot and dry
+9503,Twin Buttes,Warm temperate and xeric
+9504,Lake Limestone,Hot and dry
+9505,Vernon Lake,Hot and dry
+9513,B.A. Steinhagen Lake,Hot and dry
+9514,Lake Buchanan,Hot and dry
+9516,Lake Seminole,Hot and dry
+9517,Laneport Reservoir,Hot and dry
+9524,Lake Travis,Hot and dry
+9525,Lake Talquin,Hot and dry
+9526,Lake Conroe,Hot and dry
+9543,Lac des Allemands,Hot and dry
+9547,Lake Verret,Hot and dry
+9561,Crescent Lake,Hot and mesic
+9562,Lake Oklawaha,Hot and dry
+9592,Novillo,Extremely hot and arid
+9595,Lake Eustis,Hot and mesic
+9597,Lake Harris,Hot and mesic
+9605,Choke Canyon,Hot and mesic
+9610,Presa Las Virgenes,Hot and dry
+9612,Tohopekaliga Lake,Hot and mesic
+9615,Lake Corpus Christi,Hot and mesic
+9618,Lake Hancock,Hot and mesic
+9622,Alvaro Obregon,Extremely hot and arid
+9634,Venustiano Carranza,Hot and arid
+9636,Istokpoga Lake,Hot and mesic
+9639,Mocuzari,Extremely hot and arid
+9643,Miguel Hidalgo,Extremely hot and arid
+9645,Vaso Marte R.Gomez,Extremely hot and arid
+9687,Caimane,Extremely hot and moist
+9702,Tames,Extremely hot and moist
+9705,Pueblo Viejo,Extremely hot and moist
+9712,Agua Milpa,Extremely hot and moist
+9760,Corte,Extremely hot and moist
+9763,Catemaco,Hot and mesic
+9809,Yojoa,Hot and mesic
+9850,Arenal,Hot and mesic
+9864,Camatague,Extremely hot and moist
+9936,La Honda,Hot and dry
+9963,Arari,Extremely hot and moist
+10110,Araras,Extremely hot and xeric
+10119,Poechos,Extremely hot and moist
+10140,Oros,Extremely hot and xeric
+10148,Mae d'Agua,Extremely hot and moist
+10151,Boqueirao,Hot and mesic
+10246,Parinacocha,Cool temperate and dry
+10255,Baia Grande,Extremely hot and moist
+10300,Lago del Eden,Warm temperate and xeric
+10302,Gaiba,Extremely hot and moist
+10320,Juparana,Extremely hot and moist
+10338,Pozuelos,Cool temperate and dry
+10344,Vilama,Cold and mesic
+10348,Lajes Reservoir,Hot and dry
+10364,Billings Reservoir,Warm temperate and mesic
+10369,General Belgrano,Warm temperate and xeric
+10457,Paloma,Warm temperate and xeric
+10462,San Roque,Warm temperate and xeric
+10483,Potrerillos,Warm temperate and mesic
+10524,Colbun,Warm temperate and mesic
+10533,Maule,Cold and mesic
+10545,Laj,Cold and mesic
+10571,Arroyito,Warm temperate and mesic
+10577,Rinihue,Cool temperate and moist
+10590,Alicura,Cool temperate and moist
+10614,Amutui Quimey,Cool temperate and moist
+10620,Florentino Ameghino,Warm temperate and mesic
+10623,Gran Laguna Salada,Cool temperate and xeric
+10625,Plata,Cold and mesic
+10626,Fontana,Cold and mesic
+10657,Strobel,Cold and mesic
+10668,Sarmiento,Cold and mesic
+68381,Long Lake,Cold and wet
+90132,Medicine Lake,Cold and mesic
+96148,Berry Creek Reservoir,Cool temperate and dry
+99679,Natalie Lake,Cool temperate and dry
+100196,Long Lake,Cold and mesic
+101239,Elsie Lake,Cool temperate and moist
+101623,Lake Newton Reservoir,Cool temperate and dry
+102732,Lake Sherburne,Cold and mesic
+103266,Spectacle Lake,Cool temperate and dry
+103285,Sooke Lake,Cool temperate and moist
+103326,Lower Two Medicine Lake,Cold and mesic
+104612,Hubbert Reservoir,Cool temperate and dry
+104840,Devil Track Lake,Cold and mesic
+105090,Pishkun,Cool temperate and dry
+105139,Pablo Reservoir,Cool temperate and dry
+105214,Gibson,Cool temperate and dry
+105301,Willow Creek,Cool temperate and dry
+105340,Hibtac Western,Cool temperate and dry
+105399,White Water Reservoir,Cool temperate and dry
+105481,Billy Clapp Lake,Cool temperate and xeric
+105494,Ninepipe Reservoir,Cool temperate and dry
+105563,Youngs Lake,Cool temperate and moist
+105716,Keechelus Lake,Cool temperate and moist
+105806,Howard Hanson Reservoir,Cool temperate and moist
+105878,Mitchinamecus,Cold and mesic
+105914,Pokegama Reservoir,Cool temperate and dry
+106231,Nelson Lake,Cool temperate and dry
+106444,Pipestem Lake,Cool temperate and dry
+106515,Jamestown,Cool temperate and dry
+106624,Bumping Lake,Cold and mesic
+106629,Edward Arthur Patterson,Cool temperate and dry
+106835,Melissa Lake,Cool temperate and dry
+106881,Scooteney Reservoir,Cool temperate and xeric
+106883,Lake Helena,Cool temperate and dry
+106960,Rimrock,Cold and mesic
+107105,Little McDonald Lake,Cool temperate and dry
+107150,Deer Lake,Cold and mesic
+107881,Flint Creek,Cold and mesic
+108000,Lake Como,Cool temperate and dry
+108034,Long Lake,Cold and mesic
+108066,Goodrich,Cool temperate and dry
+108131,Round Lake,Cold and mesic
+108146,Bowman-Haley Lake,Cool temperate and dry
+108338,Cold Springs,Cool temperate and xeric
+108546,Painted Rocks,Cool temperate and dry
+108597,Carty Reservoir,Cool temperate and xeric
+108600,Fish Lake,Cool temperate and dry
+108634,Birchwood,Cool temperate and dry
+108660,Rhinelander,Cool temperate and dry
+108695,Haugen,Cool temperate and dry
+108704,McKay,Cool temperate and xeric
+108721,Mikana,Cool temperate and dry
+108745,Weldon,Cold and mesic
+108846,Diaryland Reservoir,Cool temperate and dry
+108850,Bull Run Reservoir,Cool temperate and moist
+108862,Scoggins Reservoir,Cool temperate and moist
+108879,Bull Run Lake,Cold and wet
+108893,Bull Run Reservoir,Cool temperate and moist
+108898,Barney Reservoir,Cool temperate and moist
+108901,Lake Parmley,Cool temperate and dry
+108958,Lake Oswego,Warm temperate and mesic
+109076,Wallowa Lake,Cool temperate and dry
+109208,Highway 75 Dam Reservoir,Cool temperate and dry
+109303,Clear Lake,Cold and mesic
+109317,Lodge Grass Reservoir,Cool temperate and dry
+109382,Timothy Lake,Cold and mesic
+109391,Mahaney,Cold and mesic
+109469,Pittsburg Reservoir,Cold and mesic
+109507,Thief Valley,Cool temperate and dry
+109559,Oxbow,Cool temperate and xeric
+109607,Tainter Lake,Cool temperate and dry
+109848,Weston,Cold and mesic
+109901,Eau Pleine,Cool temperate and dry
+109911,Detroit Lake,Cool temperate and moist
+109915,Twin Ponds,Cold and mesic
+109946,Simtustus Lake,Cool temperate and xeric
+109970,Phillips Lake,Cool temperate and dry
+110129,Lake Kushaqua,Cold and mesic
+110154,Unity,Cool temperate and dry
+110235,Suttle Lake,Cold and mesic
+110239,Foster Lake,Cool temperate and moist
+110270,Little River,Cold and mesic
+110291,Mollys Falls Reservoir,Cold and mesic
+110302,Malheur 3,Cool temperate and dry
+110378,Ochoco,Cool temperate and dry
+110450,Clary Saw Mill,Cold and mesic
+110491,Blue River Lake,Cool temperate and moist
+110501,Lake Bonaparte,Cold and mesic
+110510,Lake Auburn,Cold and mesic
+110511,Necedah Wildlife Refuge 31,Cool temperate and dry
+110525,Grassy Lake,Cold and mesic
+110529,South Fork Mckenzie River,Cool temperate and moist
+110538,Prineville Reservoir,Cool temperate and dry
+110549,Lower Sunshine,Cool temperate and dry
+110571,Pactola,Cool temperate and dry
+110582,Upper Sunshine,Cool temperate and dry
+110596,Deerfield,Cool temperate and dry
+110606,Bully Creek,Cool temperate and xeric
+110662,Fall Creek Lake,Cool temperate and moist
+110680,Dexter Lake,Warm temperate and mesic
+110691,Beulah,Cool temperate and xeric
+110767,Tahkenitch Lake,Cool temperate and moist
+110775,Ossipee Lake,Cold and mesic
+110785,Dorena Lake,Cool temperate and moist
+110789,Heron Lake,Cool temperate and dry
+110824,Cottage Grove Lake,Cool temperate and moist
+110828,Hills Creek Lake,Cool temperate and moist
+110858,Measley,Cold and mesic
+110894,Ayers Island Reservoir,Cold and mesic
+110899,Arrowrock,Cool temperate and xeric
+110904,Woodhull Lake,Cold and mesic
+110905,Ririe,Cool temperate and dry
+110935,Lucky Peak Lake,Cool temperate and xeric
+110972,Little Wood River,Cool temperate and dry
+110978,Milton Three Ponds,Cold and mesic
+110996,Little Camas Reservoir,Cool temperate and dry
+111003,Waterport Pond,Cool temperate and dry
+111046,Pilot Butte,Cool temperate and dry
+111061,Sir Adam Beck Reservoir,Cool temperate and dry
+111063,Lewiston Reservoir,Cool temperate and dry
+111078,Upper Oconomowoc,Cool temperate and dry
+111084,Jackman Reservoir,Cold and mesic
+111093,New Fork Lake,Cold and mesic
+111101,City Of Lake Mills,Cool temperate and dry
+111102,Pawtuckaway Lake,Cold and mesic
+111113,Golden Eye Reservoir,Cool temperate and dry
+111132,Thompson Valley Reservoir,Cool temperate and dry
+111136,Ray Lake Reservoir,Cool temperate and dry
+111155,Antelope Reservoir,Cool temperate and dry
+111173,Galesville Reservoir,Cool temperate and moist
+111183,Vischer Ferry,Cool temperate and dry
+111187,Long Beach,Extremely cold and mesic
+111219,Great Stone,Cool temperate and moist
+111234,Alexander,Cool temperate and dry
+111236,Merritt,Cool temperate and xeric
+111242,Lake Delavan,Cool temperate and dry
+111265,Calkins Bridge,Cool temperate and dry
+111277,Alcova,Cool temperate and dry
+111311,Box Butte,Cool temperate and dry
+111315,Four Mile Lake,Cold and mesic
+111331,Apple Canyon Lake,Cool temperate and dry
+111341,Schoharie Reservoir,Cold and mesic
+111348,Rushford Lake,Cool temperate and dry
+111352,Lamoka and Waneta Lakes,Cool temperate and dry
+111364,Whitney Point Lake,Cool temperate and dry
+111367,Lake Mahkeenac,Cold and mesic
+111375,Guernsey,Cool temperate and xeric
+111397,Cottonwood Reservoir,Cool temperate and dry
+111401,Eden,Cool temperate and dry
+111411,Howard Prairie Lake,Cold and mesic
+111412,Tighe Carmondy Reservoir,Cool temperate and moist
+111436,Lake Carroll,Cool temperate and dry
+111438,Hyatt,Cold and mesic
+111445,Emigrant Lake,Cool temperate and xeric
+111456,Greaser Lake,Cool temperate and xeric
+111480,Applegate Reservoir,Cool temperate and xeric
+111511,Lake Alice,Cool temperate and dry
+111512,Pawtucket Upper Reservoir,Cool temperate and moist
+111520,Copco Lake,Cool temperate and xeric
+111530,Lake Viva Naughton,Cold and mesic
+111551,Highland Lake,Cool temperate and moist
+111553,Lake Minatare,Cool temperate and xeric
+111557,Barkhamsted Reservoir,Cool temperate and moist
+111564,Hammond,Cool temperate and dry
+111566,Tioga Lake,Cool temperate and dry
+111569,Compensating Reservoir,Cool temperate and moist
+111574,Shenipsit Lake,Cool temperate and moist
+111597,Roundout Reservoir,Cool temperate and moist
+111600,Nepaug Reservoir,Cool temperate and moist
+111621,Upper Shepaug Reservoir,Cool temperate and moist
+111678,Hyrum,Cool temperate and xeric
+111707,Clarion River Lake,Cold and mesic
+111717,Lake Shastina,Cool temperate and xeric
+111757,West Branch Reservoir,Cool temperate and moist
+111759,East Branch Reservoir,Cool temperate and moist
+111777,Lake Wilhelm,Cool temperate and dry
+111781,Collins Station Cooling Lake,Cool temperate and moist
+111782,Dresden Cooling Lake,Cool temperate and moist
+111790,Lake Gaillard,Cool temperate and moist
+111804,Sherman,Cool temperate and xeric
+111814,Lake Siskiyou,Cool temperate and moist
+111819,Lasalle Nuclear Station Cooling Lake,Cool temperate and moist
+111822,Pineview,Cool temperate and dry
+111825,Saugatuck Reservoir,Cool temperate and moist
+111826,Easton Reservoir,Cool temperate and moist
+111828,Lake Hattie,Cool temperate and dry
+111851,Lost Creek,Cool temperate and dry
+111863,Michael J. Kirwan Reservoir,Cool temperate and moist
+111877,Three Mile Reservoir,Cool temperate and moist
+111886,Lake Icaria,Cool temperate and moist
+111889,Blanchard Reservoir,Cool temperate and moist
+111898,Lake Britton,Cool temperate and xeric
+111913,Branched Oak Lake,Cool temperate and xeric
+111914,Dodge Reservoir,Cool temperate and dry
+111920,Echo,Cool temperate and dry
+111924,Spoon Lake,Cool temperate and moist
+111925,Curwensville Lake,Cool temperate and dry
+111928,Big Jumbo,Cool temperate and xeric
+111936,East Canyon,Cool temperate and dry
+111953,Beltzville Lake,Cool temperate and moist
+111954,J. Edward Roush Lake,Cool temperate and moist
+111957,Heath Reservoir,Cool temperate and dry
+111963,Salamonie Lake,Cool temperate and moist
+111968,Steamboat Lake,Cold and mesic
+111972,Rock Port Lake,Cool temperate and dry
+111973,North Sterling,Cool temperate and xeric
+111976,Lake Shafer,Cool temperate and moist
+111977,Merrill Creek Reservoir,Warm temperate and mesic
+112022,Lake Bloomington,Cool temperate and moist
+112027,Evergreen Lake,Cool temperate and moist
+112033,Pleasant Hill Lake,Cool temperate and moist
+112034,Terry Lake,Cool temperate and xeric
+112043,Horsetooth,Cool temperate and dry
+112045,Red Fleet,Cool temperate and dry
+112048,Moon Lake,Cold and mesic
+112050,Powerton Cooling Lake,Cool temperate and moist
+112052,Timnath Reservoir,Cool temperate and xeric
+112054,Big Windsor,Cool temperate and xeric
+112055,Atwood Lake,Cool temperate and moist
+112060,Steinaker,Cool temperate and dry
+112061,Long Draw,Extremely cold and mesic
+112066,Leesville Lake,Cool temperate and moist
+112068,Clarks Valley Reservoir,Cool temperate and moist
+112071,Duck Creek Station Cooling,Cool temperate and moist
+112082,Enders,Cool temperate and xeric
+112084,Deer Creek,Cool temperate and dry
+112089,Blue Marsh Lake,Cool temperate and moist
+112090,Harry Strunk Lake,Cool temperate and xeric
+112092,Ruth Lake,Cool temperate and moist
+112096,Delaware Lake,Cool temperate and moist
+112097,Hugh Butler Lake,Cool temperate and xeric
+112099,Tappan Lake,Cool temperate and moist
+112103,Home Supply Reservoir,Cool temperate and xeric
+112106,Carter Lake,Cool temperate and dry
+112114,Bottle Hollow Reservoir,Cool temperate and xeric
+112117,New Empire Reservoir,Cool temperate and xeric
+112118,Clendening Lake,Cool temperate and moist
+112126,Shadow Mountain,Cold and mesic
+112131,Piedmont Lake,Cool temperate and moist
+112146,Willow Creek,Cold and mesic
+112153,Kenney Reservoir,Cool temperate and xeric
+112169,Summit Lake,Cool temperate and moist
+112177,Dillon Lake,Cool temperate and moist
+112181,Springton Reservoir,Warm temperate and mesic
+112182,Clarence J. Brown Reservoir,Cool temperate and moist
+112193,Bucks Lake,Cold and mesic
+112196,Lovewell,Cool temperate and xeric
+112199,Green Mountain,Cool temperate and dry
+112206,Eagle Creek Reservoir,Cool temperate and moist
+112210,Keith Sebelius Lake,Cool temperate and xeric
+112213,Youghiogheny River Lake,Cool temperate and moist
+112216,Scofield,Cool temperate and dry
+112223,Long Branch Lake,Warm temperate and mesic
+112227,Cecil M. Harden Lake,Cool temperate and moist
+112230,Lake Lynn,Cool temperate and moist
+112241,Cherry Creek Lake,Cool temperate and xeric
+112242,Sangchris Lake,Warm temperate and mesic
+112248,Rifle Gap,Cool temperate and dry
+112249,Marston Lake,Cool temperate and xeric
+112252,Bonny,Cool temperate and xeric
+112253,Deer Creek Lake,Cool temperate and moist
+112256,Senac,Cool temperate and xeric
+112257,Electric Lake,Cold and mesic
+112262,Stony Gorge,Warm temperate and xeric
+112265,Chatfield Lake,Cool temperate and xeric
+112267,Burr Oak Lake,Cool temperate and moist
+112272,Lake Taylorville,Warm temperate and mesic
+112280,Cagles Mill Lake,Cool temperate and moist
+112293,Bowman Lake,Cold and mesic
+112301,Mill Creek Impoundment 1,Warm temperate and mesic
+112302,Lake Pillsbury,Warm temperate and mesic
+112304,Otter Lake,Warm temperate and mesic
+112309,Boca,Cool temperate and dry
+112313,Prosser Creek,Cool temperate and dry
+112323,Lake Mattoon,Warm temperate and mesic
+112324,Spaulding Main,Cool temperate and moist
+112326,Merle Collins,Warm temperate and mesic
+112330,Tygart Lake,Cool temperate and moist
+112333,Joes Valley,Cool temperate and dry
+112343,Paint Creek Lake,Cool temperate and moist
+112344,Harry L. Englebright Lake,Warm temperate and mesic
+112352,Lake Mendocino,Warm temperate and mesic
+112353,Tridelphia Lake,Warm temperate and mesic
+112354,Lake Glenn Shoals,Warm temperate and mesic
+112356,Lake Lou Yaeger,Warm temperate and mesic
+112363,Wyandotte County Lake,Warm temperate and mesic
+112369,Lake Sara,Warm temperate and mesic
+112372,French Meadows Reservoir,Cool temperate and moist
+112381,Hell Hole Reservoir,Cool temperate and moist
+112384,Weber Reservoir,Cool temperate and xeric
+112386,Coffeen Lake,Warm temperate and mesic
+112387,Otero Reservoir,Cold and mesic
+112388,William H. Harsha Lake,Cool temperate and moist
+112389,Blue Springs Lake,Warm temperate and mesic
+112393,Stonewall Jackson Lake,Cool temperate and moist
+112396,Stonecoal Creek Reservoir,Cool temperate and moist
+112405,Greenville New City Lake,Warm temperate and mesic
+112406,Longview Lake,Warm temperate and mesic
+112408,Stumpy Meadows Reservoir,Warm temperate and mesic
+112410,Newton Power Station Lake,Warm temperate and mesic
+112411,Greenwodd Lake,Warm temperate and mesic
+112416,Burnsville Lake,Cool temperate and moist
+112419,Taylor Park,Cold and mesic
+112422,Hardy Lake,Warm temperate and mesic
+112428,East Fork Lake,Warm temperate and mesic
+112434,Jekinson Lake,Warm temperate and mesic
+112435,Lake Sonoma,Warm temperate and mesic
+112436,Stephen A. Forbes State Park Lake,Warm temperate and mesic
+112437,Twin Lake,Cold and mesic
+112440,Crawford,Cool temperate and dry
+112444,Sutton Lake,Cool temperate and moist
+112453,Glendale Reservoir,Warm temperate and mesic
+112454,Lunga Reservoir,Warm temperate and mesic
+112459,Hennessey,Warm temperate and mesic
+112462,Morrow Point,Cool temperate and dry
+112480,La Cygne Lake,Warm temperate and mesic
+112483,Bridgeport Reservoir,Cool temperate and dry
+112489,Lake Amador,Warm temperate and xeric
+112490,Beech Fork Lake,Warm temperate and mesic
+112495,Neeskah Reservoir,Cool temperate and xeric
+112500,Grayson Lake,Warm temperate and mesic
+112501,Ni River Reservoir,Warm temperate and mesic
+112506,Summersville Lake,Cool temperate and moist
+112508,Baldwin Plant Cooling Lake,Warm temperate and mesic
+112510,Bath County Reservoir,Cool temperate and moist
+112527,Timber Lake,Cool temperate and xeric
+112534,East Lynn Lake,Warm temperate and mesic
+112537,Yatesville Lake,Warm temperate and mesic
+112545,Nicasio,Warm temperate and mesic
+112561,Kaskaskia River,Warm temperate and mesic
+112565,Lloyd Lake,Cool temperate and moist
+112569,Hetch Hetchy Reservoir,Warm temperate and mesic
+112570,Moomaw,Cool temperate and moist
+112587,Paintsville Lake,Warm temperate and mesic
+112596,Kincaid Lake,Warm temperate and mesic
+112603,Cucharas Reservoir,Cool temperate and xeric
+112604,Toronto Lake,Warm temperate and mesic
+112605,Dewey Lake,Warm temperate and mesic
+112606,Council Bluff Lake,Warm temperate and mesic
+112608,Panguitch Lake Reservoir,Cool temperate and dry
+112609,Farmers Union,Cold and mesic
+112612,Dallas Warner Reservoir,Warm temperate and xeric
+112613,Cedar Lake,Warm temperate and mesic
+112614,Fall River Lake,Warm temperate and mesic
+112616,Little Grassy Lake,Warm temperate and mesic
+112617,Devils Kitchen Lake,Warm temperate and mesic
+112620,Lake of Egypt,Warm temperate and mesic
+112624,R.D. Bailey Lake,Warm temperate and mesic
+112632,San Antonio Reservoir,Warm temperate and xeric
+112633,Electra Lake,Cold and mesic
+112638,Crystal Springs Reservoir,Warm temperate and mesic
+112656,Fishtrap Lake,Warm temperate and mesic
+112660,Lake Parsons,Warm temperate and mesic
+112664,Lemon,Cool temperate and dry
+112666,Vallecito,Cool temperate and dry
+112669,Lake Thomas A. Edison,Cold and mesic
+112674,Platoro Reservoir,Cold and mesic
+112676,Buckhorn Lake,Warm temperate and mesic
+112677,Black Hills,Cool temperate and xeric
+112681,Bass Lake,Warm temperate and mesic
+112684,Florence,Cool temperate and dry
+112685,Big Hill Lake,Warm temperate and mesic
+112692,Huntington Lake 1,Cold and mesic
+112694,John W. Flannagan Lake,Warm temperate and mesic
+112696,Carr Creek Lake,Warm temperate and mesic
+112697,Lake Chesdin,Warm temperate and mesic
+112698,H.V. Eastman Lake,Warm temperate and xeric
+112713,Leroy Anderson,Warm temperate and mesic
+112718,Redinger Lake,Warm temperate and xeric
+112719,Shaver,Cool temperate and moist
+112721,Trinidad Lake,Cool temperate and xeric
+112722,Clearwater Lake,Warm temperate and mesic
+112725,Hensley Lake,Warm temperate and xeric
+112726,O'Neill Forebay Reservoir,Warm temperate and xeric
+112759,Philpott Reservoir,Warm temperate and mesic
+112771,Optima Lake,Warm temperate and mesic
+112778,Fort Supply Lake,Warm temperate and mesic
+112781,Birch Lake,Warm temperate and mesic
+112788,Lake Kaweah,Warm temperate and xeric
+112794,Spavinaw Lake,Warm temperate and mesic
+112796,Upper Spavinaw Lake,Warm temperate and mesic
+112802,Lake Reidsville,Warm temperate and mesic
+112804,Salina,Warm temperate and mesic
+112806,Lake W.R. Holway,Warm temperate and mesic
+112818,Lake Burlington,Warm temperate and mesic
+112822,McMurtry Lake,Warm temperate and mesic
+112826,W. Kerr Scott Reservoir,Warm temperate and mesic
+112828,Lake Adair,Hot and dry
+112836,Success Lake,Warm temperate and xeric
+112865,Great Falls Lake,Warm temperate and mesic
+112867,Stroud Lake,Warm temperate and mesic
+112891,Beech Lake,Warm temperate and mesic
+112901,Cochiti Lake,Cool temperate and xeric
+112902,Greenleaf Lake,Warm temperate and mesic
+112907,Dripping Springs Lake,Warm temperate and mesic
+112935,Jemez Canyon Reservoir,Warm temperate and mesic
+112949,Santa Margarita Lake,Warm temperate and mesic
+112963,Lake Auman,Warm temperate and mesic
+112971,Glenville,Cool temperate and moist
+112977,Apalachia Lake,Warm temperate and mesic
+112985,N. Saluda Reservoir,Warm temperate and mesic
+112986,Chickasha Lake,Warm temperate and mesic
+112989,Lake Bowen,Warm temperate and mesic
+112992,Parksville Lake,Warm temperate and mesic
+112994,Upper Lake Mary,Cool temperate and dry
+112995,Table Rock Reservoir,Warm temperate and mesic
+112997,H. Taylor Blalock Reservoir,Warm temperate and mesic
+113001,New Holdenville Lake,Warm temperate and mesic
+113002,McAlester Lake,Warm temperate and mesic
+113011,Lake Robinson,Warm temperate and mesic
+113022,Nottely Lake,Warm temperate and mesic
+113023,Nimrod Lake,Warm temperate and mesic
+113032,Buffalo Lake,Warm temperate and mesic
+113038,Lake Toccoa,Warm temperate and mesic
+113042,Lake Hinkle,Warm temperate and mesic
+113065,R.C. Longmire,Warm temperate and mesic
+113077,Bear Creek Lake,Warm temperate and mesic
+113091,Peckerwood Lake,Warm temperate and mesic
+113107,Carters Lake,Warm temperate and mesic
+113110,Lake Sumner,Warm temperate and mesic
+113113,Lake Fuqua,Warm temperate and mesic
+113118,Lake Humphreys,Warm temperate and mesic
+113119,Lake Cachuma,Warm temperate and xeric
+113122,Bouquet Reservoir,Warm temperate and xeric
+113130,Lake Frederick,Warm temperate and xeric
+113137,Lake Piru,Warm temperate and xeric
+113139,Little Bear Creek Reservoir,Warm temperate and mesic
+113142,Lake of the Arbuckles,Warm temperate and mesic
+113144,Lake Catherine,Warm temperate and mesic
+113149,Lake Robinson,Warm temperate and mesic
+113153,Lake Casitas,Warm temperate and xeric
+113158,Lower Reservoir,Warm temperate and mesic
+113172,Upper Bear Creek Reservoir,Warm temperate and mesic
+113177,Pool C,Warm temperate and mesic
+113178,Lake Secession,Warm temperate and mesic
+113186,Gillham Lake,Warm temperate and mesic
+113187,Lake Catoma,Warm temperate and mesic
+113195,Dierks Lake,Warm temperate and mesic
+113202,Dequeen Lake,Warm temperate and mesic
+113208,Pool B,Warm temperate and mesic
+113221,Horseshoe Lake,Hot and dry
+113253,Aberdeen Lake,Warm temperate and mesic
+113258,Bartlett Lake,Hot and dry
+113260,Truscott Brine Lake,Warm temperate and xeric
+113265,Moss Lake,Hot and dry
+113278,Lake Monticello,Warm temperate and mesic
+113295,Brushy Creek Reservoir,Hot and dry
+113303,Apache Lake,Hot and dry
+113313,Saguaro Lake,Hot and arid
+113319,Canyon Lake,Hot and arid
+113327,Columbus Lake,Warm temperate and mesic
+113383,Upper Towaliga River Reservior,Warm temperate and mesic
+113389,Jackson Lake,Hot and dry
+113429,Lake Henshaw,Warm temperate and mesic
+113431,Savannah River Par Pond,Hot and dry
+113466,White Oak Creek Reservoir,Hot and dry
+113495,Lake Alan Henry,Warm temperate and xeric
+113543,Black Lake,Hot and dry
+113557,Lake Tobesofkee,Hot and dry
+113570,New Terrell City Lake,Hot and dry
+113591,Lower Otay Reservoir,Warm temperate and xeric
+113594,Lake Hawkins,Hot and dry
+113595,Goat Rock,Hot and dry
+113598,Black Bayou Lake,Hot and dry
+113613,Brantley,Warm temperate and xeric
+113619,Oliver,Hot and dry
+113621,Lock 1,Hot and dry
+113652,Lake Colorado,Warm temperate and xeric
+113653,Kepler Creek Lake,Hot and dry
+113666,Flat Creek Lake,Hot and dry
+113694,John K. Kelly Grand Bayou Reservoir,Hot and dry
+113702,Lake Winters,Warm temperate and xeric
+113720,Big Brown Creek Lake,Hot and dry
+113726,Sibley Lake,Hot and dry
+113755,Iatt Lake,Hot and dry
+113769,Lake Tholocco,Hot and dry
+113773,Cotile Lake,Hot and dry
+113782,Kincaid Lake,Hot and dry
+113786,Hudspeth Regulating Reservoir,Warm temperate and xeric
+113802,Indian Creek,Hot and dry
+113804,Lake Anacoco,Hot and dry
+113838,Bundicks Lake,Hot and dry
+113839,Millers Lake,Hot and dry
+113886,Decker Lake,Hot and dry
+114134,Lake George,Hot and dry
+114328,Lake Apopka,Hot and mesic
+114382,Ignacio L. Alatorre,Extremely hot and arid
+114436,Lake Fannie,Hot and mesic
+114438,Lake Hamilton,Hot and mesic
+114459,Edward Medard Reservoir,Hot and mesic
+114580,Monte Alto Reservoir,Hot and mesic
+114724,Presa Juan Guerrero,Extremely hot and moist
+115296,Basilio Vadillo,Extremely hot and moist
+116011,Turimiquire,Extremely hot and moist
+116069,Agua Viva,Extremely hot and xeric
+116758,Laguna Chingaza,Cool temperate and moist
+118400,Pentecostes,Extremely hot and xeric
+118768,Banabuiu,Extremely hot and xeric
+119204,Poco da Cruz,Hot and mesic
+119401,Antacoto,Extremely cold and mesic
+120700,Varzea das Flores,Hot and dry
+121526,Recoleta,Warm temperate and xeric
+121576,Cogoti,Warm temperate and mesic
+121653,Lago de Almafuerte,Warm temperate and xeric
+121825,Yeso,Cold and mesic
+983983,Boundry Reservoir,Cool temperate and dry
+1010616,Lower Crow Reservoir,Cool temperate and dry
+1012665,Upper Rice Lake,Cool temperate and dry
+1014625,St. Mary's Lake,Cool temperate and dry
+1028316,Flynn Lake,Cool temperate and dry
+1032186,Marquette Slough,Cool temperate and dry
+1034074,Bolger,Cool temperate and dry
+1038367,Willow Creek Reservoir,Cool temperate and xeric
+1039287,North Fork,Cool temperate and moist
+1040807,None,Cool temperate and dry
+1045270,Mann Creek,Cool temperate and dry
+1045680,Smith Reservoir,Cool temperate and moist
+1046455,Hitchins Pond,Cold and mesic
+1047974,Anchor,Cool temperate and dry
+1048844,Crescent Lake,Cold and mesic
+1049110,Canada Lake,Cold and mesic
+1049357,Ben Irving Reservoir,Warm temperate and mesic
+1051551,Littleville Lake,Cool temperate and moist
+1052366,Colebrook River Lake,Cool temperate and moist
+1053261,Stillwater Lake,Cold and mesic
+1054167,Lake Hammonasset,Cool temperate and moist
+1054988,Mahoning Creek Lake,Cool temperate and moist
+1055011,Long Park,Cold and mesic
+1055198,Smith and Morehouse Reservoir,Cold and mesic
+1056052,Barker,Cold and mesic
+1056588,Savage Reservoir,Cool temperate and moist
+1056815,Martis Creek Lake,Cool temperate and dry
+1057278,Paonia,Cool temperate and dry
+1057399,Bodie Creek Reservoir,Cool temperate and xeric
+1057614,Gould,Cool temperate and dry
+1058018,Silver Jack,Cold and mesic
+1058066,Pinecrest Lake,Cool temperate and moist
+1058376,Kent Lake,Warm temperate and mesic
+1058766,W.D. Purse Reservoir 1,Cool temperate and xeric
+1058881,Upper Enterprise,Cool temperate and xeric
+1058999,Jackson Gulch,Cool temperate and dry
+1059040,Alamosa River Reservoir,Cold and mesic
+1059190,Spring Hollow Reservoir,Warm temperate and mesic
+1059226,Lexington,Warm temperate and mesic
+1059269,South Lake,Extremely cold and mesic
+1059330,Loch Lomond,Warm temperate and mesic
+1061488,Blue Ridge Reservoir,Cool temperate and dry
+1061737,Lower Van Norman Lake,Warm temperate and xeric
+1061791,Bard Lake,Warm temperate and xeric
+1062300,Irvine Lake,Warm temperate and xeric
+1062785,Flat Creek Reservoir,Warm temperate and mesic
+1063397,Peacock Site 1-A Tailings Reservoir,Hot and dry
+1063487,Senator Wash,Hot and arid
+1063536,Lake Jennings,Warm temperate and xeric
+1064638,Hords Creek Lake,Warm temperate and xeric
+1065340,Chicot Lake,Hot and dry
+1068400,Lake Smart,Hot and mesic
+1069202,Lake Edinburg,Hot and mesic
+1,Caspian Sea,Cool temperate and xeric
+10,Ladoga,Cold and mesic
+11,Baikal,Cold and mesic
+12,Balkhash,Cool temperate and xeric
+13,Large Aral Sea,Cool temperate and xeric
+14,Kara-Bogaz-Gol,Warm temperate and mesic
+15,Chad,Extremely hot and xeric
+16,Victoria,Hot and mesic
+17,Tanganyika,Extremely hot and moist
+18,Malawi,Extremely hot and moist
+91,Taymyr,Extremely cold and mesic
+92,Inari,Extremely cold and mesic
+93,Khantayskoye Reservoir,Extremely cold and mesic
+94,Imandra,Extremely cold and mesic
+95,Vygozero,Cold and mesic
+96,Vilyuy Reservoir,Cold and mesic
+97,Iso-Kallan,Cold and mesic
+98,Paijanne,Cold and mesic
+99,Saimaa,Cold and mesic
+100,Onega,Cold and mesic
+101,Beloye,Cold and mesic
+102,Malaren,Cold and mesic
+103,Peipsi,Cold and mesic
+104,Vattern,Cold and mesic
+105,Vanern,Cold and mesic
+106,Kama Reservoir,Cold and mesic
+107,Rybinsk Reservoir,Cold and mesic
+108,Ust-Ilimskoye Reservoir,Cold and mesic
+109,Gorkovsky Reservoir,Cold and mesic
+110,Bratsk Reservoir,Cold and mesic
+111,Cheboksary,Cool temperate and dry
+112,Krasnoyarsk Reservoir,Cool temperate and dry
+113,Novosibirskoye,Cool temperate and dry
+114,Chany,Cool temperate and dry
+115,Zeyskoye Reservoir,Cold and mesic
+116,Kuybyshev Reservoir,Cool temperate and dry
+117,Ijsselmeer,Cool temperate and moist
+118,Saratov Reservoir,Cool temperate and dry
+119,Khovsgol,Cold and mesic
+120,Tengiz,Cool temperate and dry
+121,Uvs,Cool temperate and dry
+122,Zaysan,Cool temperate and xeric
+123,Hulun,Cool temperate and dry
+124,Khyargas,Cool temperate and dry
+125,Kremenchuk Reservoir,Cool temperate and dry
+126,Volgograd Reservoir,Cool temperate and xeric
+127,Khar Us,Cool temperate and dry
+128,Tsimlyanskoye Reservoir,Cool temperate and xeric
+129,Kakhovka Reservoir,Cool temperate and xeric
+130,Small Aral Sea,Cool temperate and xeric
+131,Alakol,Cool temperate and xeric
+132,Syvash,Cool temperate and xeric
+133,Kaydak,Cool temperate and xeric
+134,Khanka,Cool temperate and dry
+135,Qapshaghay Bogeni Reservoir,Cool temperate and xeric
+136,Issyk Kul,Cool temperate and dry
+137,Sarygamysh,Warm temperate and mesic
+138,Aydar,Warm temperate and xeric
+139,Sevan,Cool temperate and dry
+140,Tuz,Cool temperate and xeric
+141,Van,Cool temperate and xeric
+142,Urmia,Cool temperate and xeric
+143,Qinghai,Cold and mesic
+144,Buhayrat ath Tharthar,Hot and arid
+145,Hungtze,Warm temperate and mesic
+146,Razazah,Hot and arid
+147,Siling,Extremely cold and mesic
+148,Tai,Warm temperate and mesic
+149,Nam,Extremely cold and mesic
+150,Goud-e-Zareh,Hot and arid
+151,Poyang,Hot and dry
+152,Nasser,Extremely hot and xeric
+153,Tonle Sap,Extremely hot and xeric
+154,Tana,Hot and dry
+155,Kainji Reservoir,Extremely hot and xeric
+156,Volta,Extremely hot and xeric
+157,Abaya,Extremely hot and moist
+158,Turkana,Extremely hot and xeric
+159,Albert,Extremely hot and moist
+160,Toba,Hot and mesic
+161,Kyoga,Hot and mesic
+162,Edward,Hot and mesic
+163,Kivu,Hot and dry
+164,Mai-Ndombe,Extremely hot and moist
+165,Eyasi,Hot and mesic
+166,Rukwa,Extremely hot and moist
+167,Mweru,Hot and mesic
+168,Mweru wa Ntipa,Extremely hot and moist
+169,Bangweulu,Hot and dry
+170,Chilwa,Hot and mesic
+171,Cahora Bassa Reservoir,Extremely hot and moist
+172,Kariba Reservoir,Extremely hot and moist
+173,Ntwetwe Pan,Hot and mesic
+174,Sua Pan,Hot and mesic
+175,Eyre,Hot and arid
+176,Frome,Hot and dry
+177,Torrens,Hot and dry
+178,Gairdner,Warm temperate and xeric
+1007,Kungasalakh,Extremely cold and mesic
+1008,Portnyagino,Extremely cold and mesic
+1009,Kokora,Extremely cold and mesic
+1010,Nadudoturku,Extremely cold and mesic
+1011,Bustakh,Extremely cold and mesic
+1012,Ferguson,Extremely cold and mesic
+1013,Mogotoyeyo,Extremely cold and mesic
+1014,Soluntakh,Extremely cold and mesic
+1015,Periptaveto,Extremely cold and mesic
+1016,Yambuto,Extremely cold and mesic
+1018,Ilergytgyn,Extremely cold and mesic
+1019,Mayato and Neyto,Extremely cold and mesic
+1020,Neyato,Extremely cold and mesic
+1021,Bol'shoye Morskoye,Extremely cold and mesic
+1022,Pyasino,Extremely cold and mesic
+1024,Yambuto,Extremely cold and mesic
+1025,Lama,Extremely cold and mesic
+1026,Chukoch'ye,Extremely cold and mesic
+1027,Nerpich'ye,Extremely cold and mesic
+1028,Glubokoye,Extremely cold and mesic
+1029,Ozhogino,Extremely cold and mesic
+1031,Sobach'ye,Extremely cold and mesic
+1033,Keta,Extremely cold and mesic
+1034,Peschanoye,Extremely cold and mesic
+1036,Kovdozero,Extremely cold and mesic
+1039,Pavylon,Extremely cold and mesic
+1040,Khantayskoye,Extremely cold and mesic
+1041,Yessey,Extremely cold and mesic
+1043,Tornetrask,Extremely cold and mesic
+1044,Porttipahta,Extremely cold and mesic
+1045,Vtoroye,Extremely cold and mesic
+1046,Lovozero,Extremely cold and mesic
+1047,Golodnaya Guba,Extremely cold and mesic
+1048,Pervoye,Extremely cold and mesic
+1049,Lokan Terkojarvi,Extremely cold and mesic
+1051,Umbozero,Extremely cold and mesic
+1052,Akkajaure,Extremely cold and mesic
+1053,Eloygytgyn,Extremely cold and mesic
+1054,Virihaure,Cold and wet
+1055,Agata,Extremely cold and mesic
+1056,Kovitskoye,Extremely cold and mesic
+1057,Stora Lulevatten,Extremely cold and mesic
+1058,Kureiskaya,Extremely cold and mesic
+1060,Paduskoye More,Extremely cold and mesic
+1061,Parkijaure,Extremely cold and mesic
+1062,Iovskoye,Extremely cold and mesic
+1063,Temchi,Extremely cold and mesic
+1064,Vivi,Extremely cold and mesic
+1065,Kemijarvi,Cold and mesic
+1066,Tikshe,Extremely cold and mesic
+1067,Yli -Kitka,Extremely cold and mesic
+1068,Hornavan,Extremely cold and mesic
+1070,Shuryshkarskiy,Extremely cold and mesic
+1071,Pya,Cold and mesic
+1072,Uddjaur,Extremely cold and mesic
+1074,Rossvatnet,Cold and wet
+1075,Keret,Extremely cold and mesic
+1080,Topozero,Cold and mesic
+1081,Storuman,Extremely cold and mesic
+1084,Kianta,Cold and mesic
+1085,Sredneye Kuyto,Cold and mesic
+1089,Oulu,Cold and mesic
+1092,Flasjon,Cold and mesic
+1093,Ontojarvi,Cold and mesic
+1094,Snasvatnet,Cold and wet
+1096,Ondozero,Cold and mesic
+1098,Torrojen,Extremely cold and mesic
+1099,Pyhajarvi,Cold and mesic
+1100,Leksozero,Cold and mesic
+1101,Nedzheli,Cold and mesic
+1102,Kallsjon,Cold and mesic
+1103,Seg,Cold and mesic
+1104,Storsjon,Cold and mesic
+1105,Lappajarvi,Cold and mesic
+1107,Kolmajarvi,Cold and mesic
+1108,Kozhozero,Cold and mesic
+1109,Kivijarvi,Cold and mesic
+1110,Nilakka,Cold and mesic
+1111,Hoytiainen,Cold and mesic
+1112,Koitere,Cold and mesic
+1113,Pielinen,Cold and mesic
+1114,Virmasvesi,Cold and mesic
+1116,Minijarvi,Cold and mesic
+1117,Keitele,Cold and mesic
+1118,Pal’yeozero,Cold and mesic
+1119,Juojarvi,Cold and mesic
+1121,Vodlozero,Cold and mesic
+1124,Keuruunselka,Cold and mesic
+1125,Pyhajarvi,Cold and mesic
+1127,Femunden,Extremely cold and mesic
+1129,Janis Yarvi,Cold and mesic
+1130,Yam,Cold and mesic
+1131,Piltanlor,Cold and mesic
+1132,Suonne,Cold and mesic
+1133,Puulavesi,Cold and mesic
+1135,Nasijarvi,Cold and mesic
+1136,Lacha,Cold and mesic
+1137,Pyhajarvi,Cold and mesic
+1138,Visohisarvi,Cold and mesic
+1139,Langelmavesi,Cold and mesic
+1140,Vanajanselka,Cold and mesic
+1142,Tormemtor,Cold and mesic
+1144,Vesijarvi,Cold and mesic
+1146,Pyhajarvi,Cold and mesic
+1149,Vozhe,Cold and mesic
+1150,Siljan,Cold and mesic
+1152,Mjosa,Cold and mesic
+1153,Randsfjorden,Cold and mesic
+1155,Tyrifjorden,Cold and mesic
+1156,Kubenskoye,Cold and mesic
+1159,Stora Le,Cold and mesic
+1160,Hjalmaren,Cold and mesic
+1162,Skagern,Cold and mesic
+1163,Ilmen,Cold and mesic
+1164,Vortis-Jarv,Cold and mesic
+1165,Sommen,Cold and mesic
+1166,Bolshoy Uvat,Cold and mesic
+1169,Votkinsk Reservoir,Cool temperate and dry
+1170,Bolmen,Cold and mesic
+1172,Saltaim,Cold and mesic
+1175,Nizhnekamsk Reservoir,Cool temperate and dry
+1176,Ubinskoye,Cold and mesic
+1177,Argazinskoye,Cool temperate and dry
+1178,Baunt,Cold and mesic
+1179,Saitlan,Cool temperate and dry
+1180,Neagh,Cool temperate and moist
+1181,Kronotskoye,Extremely cold and mesic
+1182,Malyye Chany,Cool temperate and dry
+1183,Ul'ken-karoy,Cool temperate and dry
+1184,Kilibek,Cool temperate and dry
+1186,Sniardwy,Cool temperate and dry
+1187,Muritz,Cool temperate and dry
+1188,Ree,Cool temperate and moist
+1191,Orel',Cold and mesic
+1192,Seletyteniz,Cool temperate and dry
+1193,Corrib,Cool temperate and moist
+1195,Kulundinskoye,Cool temperate and dry
+1196,Kushmurun,Cool temperate and dry
+1197,Zhalauly,Cool temperate and dry
+1198,Sayano-Shushenskoye,Cool temperate and dry
+1199,Lough Derg,Cool temperate and moist
+1200,Kuchukskoye,Cool temperate and dry
+1201,Bol'sho Yeravnoye,Cold and mesic
+1202,Gor'koye,Cool temperate and dry
+1203,Udyl',Cold and mesic
+1204,Chukchagirskoye,Cold and mesic
+1205,Teletskoye,Cool temperate and dry
+1208,Iriklinskoye,Cool temperate and dry
+1210,Evoron,Cold and mesic
+1211,Gusinoye,Cool temperate and dry
+1213,Kiev Reservoir,Cool temperate and dry
+1214,Shalkar,Cool temperate and xeric
+1218,Orog,Cold and mesic
+1219,Torey Lakes,Cool temperate and dry
+1220,Bolon',Cool temperate and dry
+1221,Karasor,Cool temperate and dry
+1224,Achit,Cool temperate and dry
+1225,Sangiyn Dalay,Cold and mesic
+1227,El'ton,Cool temperate and xeric
+1231,Telmen,Cold and mesic
+1232,Markakol',Cold and mesic
+1233,Dnieprodzerzhinsk Reservoir,Cool temperate and dry
+1234,Inder,Cool temperate and xeric
+1235,Sor Khaki,Cool temperate and xeric
+1236,Har,Cool temperate and dry
+1238,Shalkarteniz,Cool temperate and xeric
+1239,Dorgon,Cool temperate and dry
+1240,Buir,Cool temperate and dry
+1242,Neusiedl,Cool temperate and moist
+1243,Constance,Cool temperate and moist
+1244,Lake Tisza,Cool temperate and xeric
+1245,Ulungur,Cool temperate and xeric
+1248,Luzern,Cool temperate and moist
+1249,Neuchatel,Cool temperate and moist
+1250,Jili,Cool temperate and xeric
+1251,Balaton,Cool temperate and xeric
+1253,Tiligul'skiy,Cool temperate and xeric
+1254,Sasykkol,Cool temperate and xeric
+1255,Manych-Gudilo,Cool temperate and xeric
+1256,Khadzhideyskiy,Cool temperate and xeric
+1258,Uyaly,Cool temperate and xeric
+1259,Molochnoye,Cool temperate and xeric
+1260,Beysugskty,Cool temperate and xeric
+1261,Geneva,Cool temperate and moist
+1262,Kamyshlybas,Cool temperate and xeric
+1265,Dnestrovskyi,Cool temperate and xeric
+1272,Shagany,Cool temperate and xeric
+1273,Manas,Cool temperate and xeric
+1274,Como,Warm temperate and mesic
+1275,Maggiore,Warm temperate and mesic
+1278,Boon Tsagaan,Cool temperate and dry
+1281,Chograyskoye,Cool temperate and xeric
+1282,Garda,Warm temperate and mesic
+1284,Yalpug,Cool temperate and xeric
+1286,Quagan,Cool temperate and dry
+1287,Kiziliashskiy,Cool temperate and xeric
+1288,Orog,Cool temperate and dry
+1289,Tshchikskoye,Cool temperate and xeric
+1290,Ebi,Cool temperate and xeric
+1292,Razelm,Cool temperate and xeric
+1294,Sinoe,Cool temperate and xeric
+1295,Sai li-mu,Cold and mesic
+1296,Valli di Comacchio,Warm temperate and mesic
+1298,Berre,Warm temperate and mesic
+1300,Dalai,Cool temperate and dry
+1301,Trasimeno,Warm temperate and mesic
+1302,Bolsena,Warm temperate and mesic
+1303,Scutari,Warm temperate and mesic
+1304,Bosten,Cool temperate and xeric
+1305,Song-kel,Cold and mesic
+1306,Toktogul'skoye,Cool temperate and xeric
+1307,Chardarinskoye,Warm temperate and xeric
+1310,Ohrid,Warm temperate and mesic
+1311,Cildir,Cold and mesic
+1312,Prespa,Cool temperate and moist
+1313,Mingechaurskoye,Warm temperate and mesic
+1314,Wu-liang-su,Cool temperate and xeric
+1315,Chatyr-kel',Extremely cold and mesic
+1317,Miyun Shuiku,Cool temperate and xeric
+1319,Iznik,Warm temperate and mesic
+1320,Kayrakkumskoye,Warm temperate and mesic
+1321,Ulubat,Warm temperate and mesic
+1322,Kus,Warm temperate and mesic
+1324,Kuyumazarskoye,Warm temperate and xeric
+1325,Xiaoxihaiz Shuiku,Cool temperate and xeric
+1326,Hirfanli,Cool temperate and xeric
+1327,Tudakol’,Warm temperate and xeric
+1330,Karakul,Extremely cold and mesic
+1331,Suhai,Cool temperate and dry
+1332,Keban Baraji,Warm temperate and mesic
+1333,Ercek,Cool temperate and dry
+1334,Eber,Cool temperate and xeric
+1335,Aksehir,Cool temperate and xeric
+1336,Hala,Extremely cold and mesic
+1339,Gas Hure,Cold and mesic
+1340,Egridir,Warm temperate and mesic
+1341,Acigol,Warm temperate and mesic
+1342,Burdur,Warm temperate and mesic
+1343,Beysehir,Cool temperate and xeric
+1344,Ayakkum,Extremely cold and mesic
+1346,Inawashiro ko,Cool temperate and moist
+1348,Ataturk Dam,Warm temperate and xeric
+1349,Kayrakkumskoye,Warm temperate and xeric
+1350,Toson,Cool temperate and dry
+1352,Aqqikkol,Extremely cold and mesic
+1353,Dabsan,Cool temperate and dry
+1357,Arkatag,Extremely cold and mesic
+1359,Dongping,Warm temperate and mesic
+1361,Kasumigaura,Warm temperate and mesic
+1362,Dukan,Hot and dry
+1365,Assad,Warm temperate and xeric
+1366,Lixi'Oidain,Extremely cold and mesic
+1367,Hoh Sai,Extremely cold and mesic
+1369,Hoh Xil,Extremely cold and mesic
+1370,Zonag,Extremely cold and mesic
+1371,Donggi Cona,Extremely cold and mesic
+1372,Dogaicoring Quang,Extremely cold and mesic
+1373,Aksayquin,Extremely cold and mesic
+1374,Xijir Ulan,Extremely cold and mesic
+1375,Dorge,Extremely cold and mesic
+1377,Ngoring,Extremely cold and mesic
+1378,Gozha,Extremely cold and mesic
+1379,Bairab,Extremely cold and mesic
+1380,Daryacheh-ye Howz Soltan,Warm temperate and xeric
+1381,Biwa,Warm temperate and mesic
+1382,Bangdag,Extremely cold and mesic
+1385,Gyaring,Extremely cold and mesic
+1388,Weishan,Warm temperate and mesic
+1389,Dogai Coring,Extremely cold and mesic
+1390,Chah-e Khorasan,Hot and dry
+1391,Memar,Extremely cold and mesic
+1392,Habbaniyah,Hot and arid
+1395,Chem,Extremely cold and mesic
+1396,Luoma,Warm temperate and mesic
+1397,Aru,Extremely cold and mesic
+1398,Tarbela,Hot and mesic
+1399,Lumajangdong,Extremely cold and mesic
+1400,Pangong,Cold and mesic
+1401,Gyeze Caka,Extremely cold and mesic
+1403,Bangong,Cold and mesic
+1404,Migriggyangzham,Extremely cold and mesic
+1405,Dorsoidong,Extremely cold and mesic
+1407,Habbaniyah,Hot and arid
+1408,Mangla,Hot and mesic
+1411,Yaggain Canco,Extremely cold and mesic
+1413,Morari,Extremely cold and mesic
+1414,Tiberias,Hot and arid
+1416,Kaoyu,Warm temperate and mesic
+1417,Han Shui,Warm temperate and mesic
+1418,Wabu,Warm temperate and mesic
+1422,Namru,Extremely cold and mesic
+1423,Beas,Hot and mesic
+1424,Na,Extremely cold and mesic
+1425,Ta-tse,Extremely cold and mesic
+1426,Bangkog,Extremely cold and mesic
+1427,Dogen,Extremely cold and mesic
+1428,Dagze,Extremely cold and mesic
+1429,Ngoin,Extremely cold and mesic
+1430,Chao,Warm temperate and mesic
+1431,Ngangla Ringco,Extremely cold and mesic
+1432,Dead Sea,Extremely hot and arid
+1433,P'eng-Ts'o,Extremely cold and mesic
+1434,Ge,Warm temperate and mesic
+1435,Hamun-E Saberi,Hot and arid
+1436,Shijiu,Warm temperate and mesic
+1437,Cha-pu-yeh ch'a-k'a,Extremely cold and mesic
+1438,Yangcheng,Warm temperate and mesic
+1439,Ko-jen,Extremely cold and mesic
+1440,Pa-Mu-Ts'o,Extremely cold and mesic
+1441,Bong,Extremely cold and mesic
+1442,Jen-ch'ing hsiu-pu-ts'o,Extremely cold and mesic
+1444,Kuo-mang,Extremely cold and mesic
+1445,T'a-jo,Extremely cold and mesic
+1446,Nanyi,Warm temperate and mesic
+1447,Ang-tzu,Extremely cold and mesic
+1449,Zhari Namco,Extremely cold and mesic
+1450,Tangra,Extremely cold and mesic
+1451,P'a-lung,Extremely cold and mesic
+1452,La-ang,Extremely cold and mesic
+1453,Three Gorges Reservoir,Hot and dry
+1454,Ma-p'ang yung-ts'o,Extremely cold and mesic
+1455,Great Bitter,Hot and arid
+1456,Chang,Warm temperate and mesic
+1457,Hsu-ju,Extremely cold and mesic
+1458,Liangzi,Hot and dry
+1460,Po,Hot and dry
+1461,Daguan,Hot and dry
+1462,Futou,Hot and dry
+1463,Longgan,Hot and dry
+1464,Hong,Hot and dry
+1468,Qarun,Hot and arid
+1470,Dongting,Hot and dry
+1471,Bakhtegan,Warm temperate and xeric
+1473,Yamdrok,Cold and mesic
+1474,P'ei-k'u t'so,Extremely cold and mesic
+1476,Junshan,Hot and dry
+1477,P'u-mo-ts'o,Extremely cold and mesic
+1479,Erh,Warm temperate and mesic
+1480,Indawngy,Hot and mesic
+1481,Rana Pratap,Extremely hot and xeric
+1482,Kalri Lake,Extremely hot and xeric
+1483,Dian Chi,Warm temperate and mesic
+1484,Gandhisagar Reservoir,Extremely hot and moist
+1485,Fuxian,Hot and dry
+1487,Govind Ballabah Pant,Extremely hot and moist
+1488,Bansagar Lake,Extremely hot and moist
+1492,Toshka  2,Extremely hot and arid
+1495,Toshka  1,Extremely hot and arid
+1497,Bango Reservoir,Extremely hot and moist
+1498,Tawa Reservoir,Extremely hot and moist
+1499,Barkal,Extremely hot and moist
+1502,Hirakud Reservoir,Extremely hot and xeric
+1504,Ukal,Extremely hot and xeric
+1506,Chilika,Extremely hot and xeric
+1507,Jayakwadi,Extremely hot and xeric
+1513,Ujani,Extremely hot and xeric
+1514,Sirikit,Extremely hot and xeric
+1516,Bhumibol,Extremely hot and xeric
+1517,Ubol Ratana,Extremely hot and xeric
+1518,Lam Pao,Extremely hot and moist
+1519,Nagarjuna,Extremely hot and xeric
+1520,Guiers,Extremely hot and xeric
+1524,Srisailam Reservoir,Extremely hot and xeric
+1525,Debo,Extremely hot and xeric
+1526,Tungabhadra,Extremely hot and xeric
+1527,Jebel Aulia Reservoir,Extremely hot and xeric
+1528,Noi,Extremely hot and moist
+1530,Pasak Chonlasit,Extremely hot and xeric
+1532,Bay,Extremely hot and moist
+1534,Linganamakki,Extremely hot and moist
+1535,Taal,Extremely hot and moist
+1539,Afrera ye'ch'ew,Extremely hot and xeric
+1541,Fitri,Extremely hot and xeric
+1543,Roseires Reservoir,Extremely hot and xeric
+1544,Selingue,Extremely hot and xeric
+1548,Abhe Bid,Extremely hot and xeric
+1551,Lake Maga,Extremely hot and xeric
+1553,Iro,Extremely hot and xeric
+1555,Finchaa,Warm temperate and mesic
+1556,Mainit,Extremely hot and moist
+1558,Lagdo Reservoir,Extremely hot and xeric
+1559,Chiew Larn,Extremely hot and moist
+1560,Koka,Hot and dry
+1561,Lano,Hot and mesic
+1562,Ziway,Hot and dry
+1563,Langano,Hot and dry
+1564,Abayata,Hot and dry
+1565,Shala,Hot and dry
+1567,Thale Luang,Extremely hot and moist
+1568,Kossour Reservoir,Extremely hot and xeric
+1569,Piso,Extremely hot and moist
+1570,Lagos Lagoon,Extremely hot and moist
+1571,Nokoue,Extremely hot and xeric
+1572,M'Bakaou,Hot and mesic
+1573,Buyo Reservoir,Extremely hot and moist
+1575,Ch'Amo,Hot and mesic
+1578,Ebrie Lagoon,Extremely hot and moist
+1581,Tasik Kenyir,Extremely hot and moist
+1582,Bisina,Extremely hot and moist
+1584,Danau Sentarum,Extremely hot and moist
+1585,Baringo,Extremely hot and moist
+1586,George,Hot and mesic
+1587,Semajang,Extremely hot and moist
+1588,Djenpang,Extremely hot and moist
+1589,Danau Singkarak,Extremely hot and moist
+1590,Tumba,Extremely hot and moist
+1591,Naivasha,Warm temperate and xeric
+1592,Onangue,Extremely hot and moist
+1594,Danau Poso,Hot and mesic
+1595,Danau Romberbai,Extremely hot and moist
+1596,Burigi,Hot and mesic
+1598,Rweru,Hot and dry
+1600,Danau Matano,Extremely hot and moist
+1601,Natron,Extremely hot and moist
+1602,Towuti,Extremely hot and moist
+1604,Manyara,Hot and mesic
+1605,Kikuletwa,Extremely hot and moist
+1606,Danau Paniai,Warm temperate and mesic
+1608,Chambri,Extremely hot and moist
+1609,Danau Ranau,Hot and mesic
+1611,Sulunga,Extremely hot and moist
+1613,Murray,Extremely hot and moist
+1614,Kabamba,Extremely hot and moist
+1615,Zimbambo,Extremely hot and moist
+1616,Kisale,Extremely hot and moist
+1617,Upemba,Extremely hot and moist
+1618,Kabele,Extremely hot and moist
+1621,N'Zilo,Hot and dry
+1622,Tshangalele,Hot and dry
+1624,Kampolombo,Hot and dry
+1626,Chiuta,Hot and mesic
+1627,Malombe,Extremely hot and moist
+1631,Kinkony,Extremely hot and xeric
+1632,Argyle Reservoir,Extremely hot and xeric
+1633,Calueque,Hot and mesic
+1634,Alaotra,Hot and dry
+1637,Karumba Plains,Extremely hot and xeric
+1638,Revue,Hot and mesic
+1640,Dalrymple,Hot and mesic
+1644,Ihotry,Extremely hot and moist
+1648,Disappointment,Extremely hot and arid
+1650,Fairbairn,Hot and mesic
+1651,Massinger Barragen,Hot and mesic
+1654,Amadeus,Hot and arid
+1655,Carnegie,Hot and arid
+1657,Vaaldam,Warm temperate and xeric
+1660,Wivenhoe,Hot and dry
+1662,Bloemhofdam,Warm temperate and xeric
+1663,St. Lucia,Hot and mesic
+1670,Carey,Hot and dry
+1678,Hendrik Verwoerd,Warm temperate and xeric
+1681,Lefroy,Warm temperate and xeric
+1685,Cowan,Warm temperate and xeric
+1688,Minindee,Warm temperate and xeric
+1690,Victoria,Warm temperate and xeric
+1692,Alexandrina,Warm temperate and xeric
+1693,Hindmarsh,Warm temperate and xeric
+1694,Hume,Warm temperate and mesic
+1695,Eucumbene,Cool temperate and moist
+1696,Wellington,Warm temperate and mesic
+1697,Corangamite,Warm temperate and mesic
+1698,Taupo,Warm temperate and mesic
+1699,Great Lake,Cold and mesic
+1700,Gordon,Cool temperate and moist
+1701,Pedder,Cool temperate and moist
+1703,Pukaki,Cool temperate and moist
+1704,Hawea,Cool temperate and moist
+1705,Wanaka,Cool temperate and moist
+1706,Wakatipu,Cool temperate and moist
+1707,Te Anau,Cool temperate and moist
+1708,Manapouri,Cool temperate and moist
+10783,Kiyeng-Kyuyel',Extremely cold and mesic
+10817,Tonskoye,Extremely cold and mesic
+10973,Sagarych'ye,Extremely cold and mesic
+11145,Melkoye,Extremely cold and mesic
+11154,Klistervatnet,Extremely cold and mesic
+11189,Sundvatnet,Extremely cold and mesic
+11212,Ayan,Extremely cold and mesic
+11615,Vastenjaure,Cold and wet
+11616,Satisjaure,Extremely cold and mesic
+11633,Sisovatn Reservoir,Cold and wet
+11659,Agata,Extremely cold and mesic
+11665,Myakshinga,Extremely cold and mesic
+11670,Vyalozero,Extremely cold and mesic
+11687,Sergazero,Extremely cold and mesic
+11697,Randijaure,Extremely cold and mesic
+11722,Munduyskoye,Extremely cold and mesic
+11842,Storovan,Extremely cold and mesic
+11882,Bastuselet,Extremely cold and mesic
+11887,Storjuktan,Extremely cold and mesic
+11896,Lagarfljoi,Cold and wet
+11955,Stor Blasjon,Extremely cold and mesic
+11957,Tunnssjoon,Cold and wet
+11958,Limingen,Cold and wet
+11967,Kvislavatn,Cold and wet
+11969,Jormvattnet,Extremely cold and mesic
+11976,Kvarnbergsvattnet,Extremely cold and mesic
+12001,Thorisvatn,Cold and wet
+12026,Sultartangalon,Cold and wet
+12032,Krokslon,Cold and wet
+12040,Thingvallavain,Cold and wet
+12213,Nesjoen,Extremely cold and mesic
+12228,Gimol Skoye,Cold and mesic
+12229,Nakten,Cold and mesic
+12465,Norra Dellen,Cold and mesic
+12490,Kyrosjarvi,Cold and mesic
+12587,Amungen,Cold and mesic
+12649,Gyrinosvatnet,Extremely cold and mesic
+12651,Kongshellervatnet,Cold and wet
+12664,Stolsvatnet,Extremely cold and mesic
+12691,Syrkovoye,Cold and mesic
+12710,Tursuntskiy Tuman,Cold and mesic
+12768,Lohjanjarvi,Cold and mesic
+12842,Lake Oyeren,Cold and mesic
+12849,Fryken,Cold and mesic
+12878,Blasjo,Cold and wet
+12881,Glafsfj,Cold and mesic
+12887,Blasjo,Cold and wet
+12896,Napevatnet,Extremely cold and mesic
+12915,Nisser,Cold and mesic
+12926,Toke,Cold and mesic
+12951,Unden,Cold and mesic
+12959,Glan,Cold and mesic
+12965,Roxen,Cold and mesic
+12992,Shin,Cool temperate and moist
+13036,Ness,Cool temperate and moist
+13060,Loch Quoich,Cold and wet
+13078,Loch Lochy,Cool temperate and moist
+13113,Asnen,Cold and mesic
+13152,Bul'shoye Toko,Cold and mesic
+13155,Ik,Cold and mesic
+13169,Lomond,Cool temperate and moist
+13171,Istrinskoye,Cold and mesic
+13227,Shchuch'ye,Cool temperate and dry
+13246,Uvil'dy,Cool temperate and dry
+13274,Tavolzhan,Cool temperate and dry
+13344,Ebeyty,Cool temperate and dry
+13366,Vilejskoye,Cold and mesic
+13369,Erne,Cool temperate and moist
+13414,Kishi'karoy,Cool temperate and dry
+13541,Karatomarskoye,Cool temperate and dry
+13581,Rutland Water,Cool temperate and moist
+13683,Kuril'skoye,Extremely cold and mesic
+13793,Pechenezhkoye,Cool temperate and dry
+13835,Jezioro Czorsztynskie,Cool temperate and dry
+13862,Krasno-Oskol,Cool temperate and dry
+13885,Akkol',Cool temperate and xeric
+13925,Lac du Der-Chantecoq,Cool temperate and moist
+13928,Tolbo,Cold and mesic
+13931,Horgon,Cold and mesic
+13937,Har,Cool temperate and dry
+13939,Dayan,Cold and mesic
+13943,Har,Cold and mesic
+13944,Lac du Temple,Cool temperate and moist
+13951,Lac d'Orient,Cool temperate and moist
+13966,Starnberger See,Cold and mesic
+13970,Chiemsee,Cool temperate and moist
+13971,Traunsee,Cool temperate and moist
+14005,Wangen Lachen,Cool temperate and moist
+14072,Kuyal'nitskiy,Cool temperate and xeric
+14104,Khanskoye,Cool temperate and xeric
+14177,Yueliang Pao,Cool temperate and dry
+14185,Iseo,Warm temperate and mesic
+14218,Akhtanizovskiy,Cool temperate and xeric
+14298,Shumarinaiko,Cold and mesic
+14332,Barkol,Cool temperate and dry
+14349,Vaccares,Warm temperate and mesic
+14353,Thau,Warm temperate and mesic
+14357,Ch'a-han no-erh,Cool temperate and dry
+14372,Biylikol,Cool temperate and xeric
+14385,Itoiz Reservoir,Cool temperate and moist
+14393,Bilecko Jezero,Warm temperate and mesic
+14409,Lake Campostosto,Cold and mesic
+14425,Fierza Reservoir,Warm temperate and mesic
+14432,Vau-Dejes Reservoir,Warm temperate and mesic
+14441,Kozjak,Cool temperate and xeric
+14466,Altinkaya Baraji,Warm temperate and mesic
+14471,Almendra,Warm temperate and mesic
+14505,Huang-ch'i,Cool temperate and dry
+14509,Vigorritis,Cool temperate and xeric
+14514,Volvi,Warm temperate and xeric
+14520,Tai,Cool temperate and dry
+14540,Almus Baraji,Cool temperate and xeric
+14541,Buendia,Warm temperate and mesic
+14549,Voivis,Warm temperate and mesic
+14551,Guanting Shuiku,Cool temperate and xeric
+14562,Lago Omodeo,Warm temperate and xeric
+14577,Valdecanas,Warm temperate and xeric
+14587,Ioannina,Warm temperate and mesic
+14606,Limni Plastiras,Warm temperate and mesic
+14623,Garcia de Sola,Warm temperate and xeric
+14679,Trikhonis,Hot and dry
+14682,Hazar,Warm temperate and mesic
+14685,Pego do Altar,Warm temperate and xeric
+14701,Sarezskoye,Cold and mesic
+14719,Adiyaman,Cool temperate and xeric
+14759,Tagokurako,Cool temperate and moist
+14769,Ichkeul,Warm temperate and xeric
+14770,Ginzanko,Cool temperate and moist
+14800,Bei Hulsan,Cool temperate and dry
+14811,Chuzenjiko,Cool temperate and moist
+14823,Saryyazin Skoye,Warm temperate and xeric
+14885,Okjeong Lake,Warm temperate and mesic
+14949,Lake Qattinah,Warm temperate and xeric
+14954,Lung Mu,Extremely cold and mesic
+14959,Orba,Extremely cold and mesic
+14989,Wular,Warm temperate and mesic
+15074,Nau,Extremely cold and mesic
+15109,Chengdong,Warm temperate and mesic
+15132,Dong,Extremely cold and mesic
+15135,Cam,Extremely cold and mesic
+15142,Lagkor,Extremely cold and mesic
+15163,Ch'a-erh-ku-t'e,Extremely cold and mesic
+15184,Chang Dang,Warm temperate and mesic
+15194,Govind,Hot and mesic
+15232,Mo-k'o-yu,Extremely cold and mesic
+15278,Mu-ts'o-ping-ni,Extremely cold and mesic
+15282,Zhangdu,Hot and dry
+15292,Tajo-Tzo,Extremely cold and mesic
+15320,Daye,Hot and dry
+15374,Al Fayyum,Hot and arid
+15380,Wadi Al Rayan,Hot and arid
+15455,Ch'eng,Hot and dry
+15490,Matatila,Extremely hot and moist
+15491,Rajsamand,Extremely hot and arid
+15502,Rajghat,Extremely hot and moist
+15530,Maithon Reservoir,Extremely hot and xeric
+15534,Panchet Hill Reservoir,Extremely hot and xeric
+15536,Mahi Bajaj Sagar Reservoir,Extremely hot and xeric
+15541,Getalsud Reservoir,Extremely hot and moist
+15614,Wadgaon Lake,Extremely hot and xeric
+15621,Ravishankar Sagar,Extremely hot and xeric
+15622,Murumsilli,Extremely hot and moist
+15630,Madhuban,Extremely hot and moist
+15632,Erai Reservoir,Extremely hot and xeric
+15701,Paleru Reservoir,Extremely hot and xeric
+15702,Nong Han Lake,Extremely hot and moist
+15726,Aougoundou,Extremely hot and xeric
+15728,Bueng Boraphet,Extremely hot and xeric
+15761,Bhadra,Extremely hot and moist
+15778,Naujan,Extremely hot and moist
+15797,Khrishnaraja,Extremely hot and moist
+15827,Yardi,Extremely hot and xeric
+15866,Lake Parakrama,Extremely hot and moist
+15880,Senanayaka Samudra,Extremely hot and moist
+15887,Awasa,Hot and dry
+15892,Bosumtwi,Extremely hot and xeric
+15906,Ayame,Extremely hot and moist
+15914,Danau Tawar,Hot and mesic
+15926,Nakuwa,Hot and mesic
+15947,Melintang,Extremely hot and moist
+15948,Danau Manindjau,Extremely hot and moist
+15956,Kachira,Hot and dry
+15961,Tana,Hot and mesic
+15986,Ihema,Hot and dry
+15999,Danau Sentani,Extremely hot and moist
+16023,Kitangiri,Hot and mesic
+16043,Wisdom,Extremely hot and moist
+16050,Kutubu,Hot and mesic
+16111,Kabwe,Extremely hot and moist
+16140,Gove,Hot and dry
+16223,Lake Manyame,Hot and dry
+16225,Lake Chivero,Hot and dry
+16251,Kyle,Hot and dry
+16254,Cunningham,Hot and dry
+16257,Lake Moondarra,Extremely hot and arid
+16258,Lake McDougal,Hot and mesic
+16263,Poongkaliyarra,Extremely hot and xeric
+16312,Poelela,Hot and mesic
+16321,Monduran,Hot and dry
+16350,Boondooma,Hot and dry
+16380,Somerset,Hot and dry
+16388,Samsonvale,Hot and dry
+16389,Sibayi,Hot and mesic
+16471,Narran,Hot and dry
+16478,R.K. Roux,Warm temperate and xeric
+16508,Keepit,Warm temperate and xeric
+16557,St. Clair,Warm temperate and xeric
+16573,Burrendong,Warm temperate and xeric
+16600,Wellington Reservoir,Warm temperate and mesic
+16609,Burragorang,Warm temperate and xeric
+16611,Wyangala,Warm temperate and mesic
+16626,Blowering Reservoir,Warm temperate and mesic
+16627,Talbingo Reservoir,Warm temperate and mesic
+16629,Mulwala,Warm temperate and xeric
+16636,Eildon,Warm temperate and mesic
+16659,Rotoaira,Cool temperate and moist
+16661,Mackintosh Lake,Cool temperate and moist
+16663,Pieman,Cool temperate and moist
+16671,Echo,Cold and mesic
+16672,King William,Cool temperate and moist
+16678,Tekapo,Cool temperate and moist
+147215,Hrauneyjalon,Cold and wet
+154871,Dokkfloyvatnet,Extremely cold and mesic
+155095,Store Oljusjoen,Cold and wet
+156005,Holmavatnet,Extremely cold and wet 1
+157706,Sundsbarmvatnet,Extremely cold and mesic
+158148,Livatnet,Cold and wet
+158395,Store Tjodanvatn,Cold and wet
+158404,Valevatnet,Cold and wet
+158454,Valevatn,Cold and wet
+158837,Navatn,Cold and wet
+158874,Skjerkavatn,Cold and wet
+160516,Lyon Loch,Cold and wet
+161275,Sea of Kupiskis,Cold and mesic
+162240,Bakethin Reservoir,Cold and mesic
+165918,Moehnesee,Cool temperate and moist
+166478,Zeulenroda Reservoir,Cool temperate and dry
+166842,Lake Eau d'Heure,Cool temperate and moist
+166862,Lac de la Plate Taille,Cool temperate and moist
+166912,Imielin,Cool temperate and dry
+167691,Rothsee,Cool temperate and dry
+167757,Altmuehlsee,Cool temperate and dry
+167758,Brombachsee,Cool temperate and dry
+168208,Slnava,Cool temperate and dry
+168353,Lac de Dienville,Cool temperate and moist
+168431,Isarkanal Reservoir,Cold and mesic
+169066,Tauernmoossee,Extremely cold and mesic
+169067,Wagitalersee,Cool temperate and moist
+169133,Kloentalersee,Cool temperate and moist
+169454,Lago del Gallo,Cold and mesic
+169505,Grimsel,Cold and wet
+170958,Ivanu,Cool temperate and dry
+171310,Kruscica,Cool temperate and moist
+171379,Lake Snjeznica,Cool temperate and moist
+171489,Utsunaiko,Cold and mesic
+171498,Ricice Reservoir,Cool temperate and moist
+171550,Iwaonaiko,Cold and mesic
+171568,Obirashibeko,Cool temperate and moist
+171590,Lake Perucac,Cool temperate and moist
+171610,Horopiriko,Cool temperate and moist
+171626,Zaovinsko Jezero,Cold and mesic
+171677,Lac de l'Esparron,Warm temperate and mesic
+171705,Taisetsuko,Cold and mesic
+171730,Oketoko,Cold and mesic
+171778,Zeleno Jezero,Warm temperate and mesic
+171782,Aoyamachosuichi,Cool temperate and moist
+171801,Kitasatoko,Cold and mesic
+171812,Lake Celije,Cool temperate and xeric
+171830,Nukabirako,Cold and mesic
+171883,Higashitaisetsuko,Cool temperate and moist
+171884,Katsurazawako,Cold and mesic
+171886,Ashoroko,Cold and mesic
+171925,Kanayamako,Cool temperate and moist
+171960,Shuparoko,Cold and mesic
+171973,Lac de Montbel,Warm temperate and mesic
+171978,Sapporoko,Cool temperate and moist
+172000,Jozanko,Cool temperate and moist
+172005,Hobetsu,Cold and mesic
+172087,Nibutaniko,Cold and mesic
+172097,Niikappu,Cool temperate and moist
+172134,Pirikako,Cool temperate and moist
+172137,Takamiko,Cool temperate and moist
+172145,Fujinnoumi,Cool temperate and moist
+172190,Ovtcharitza Reservoir,Warm temperate and mesic
+172212,Barasona,Warm temperate and mesic
+172220,Koman Reservoir,Warm temperate and mesic
+172273,Lago di Guardialfiera,Warm temperate and mesic
+172295,Barragem de Paradela,Cool temperate and moist
+172313,Albufeira de Salamonde,Warm temperate and mesic
+172323,Albufeira da Canicada,Warm temperate and mesic
+172498,Liscia,Warm temperate and mesic
+172600,Coghinas,Warm temperate and mesic
+172688,Nijinoko,Cool temperate and moist
+172721,Miyamako,Cool temperate and moist
+172772,Subariko,Cool temperate and moist
+172837,Taiheiko,Cool temperate and moist
+172888,Hosenko,Cool temperate and moist
+172894,Gandoko,Cool temperate and moist
+172905,Shusenko,Cool temperate and moist
+172922,Nanbukatafujiko,Cool temperate and moist
+172928,Goshoko,Cool temperate and moist
+172963,Heiannomizuumi,Cool temperate and moist
+173028,Taseko,Cool temperate and moist
+173042,Kinshuko,Cool temperate and moist
+173233,Embalse de Bellus,Warm temperate and xeric
+173312,Hanayamako,Cool temperate and moist
+173321,Araoko,Cool temperate and moist
+173332,Naganuma,Cool temperate and moist
+173387,Yakuwa,Cool temperate and moist
+173389,Arasawako,Cool temperate and moist
+173409,Gassanko,Cool temperate and moist
+173442,Okurako,Cool temperate and moist
+173474,Miomotechosuichi,Warm temperate and mesic
+173499,Kamafusako,Cool temperate and moist
+173674,Houjonoumi,Cool temperate and moist
+173736,Vadomojon,Warm temperate and xeric
+173842,Wakasatoko,Cool temperate and moist
+173849,Cuevas de Almanzora,Warm temperate and xeric
+173855,Kuromatagawadaiichi,Cool temperate and moist
+173870,Kuromatagawadaini,Cool temperate and moist
+173876,Hatoriko,Cool temperate and moist
+173993,Guadalhorce,Warm temperate and xeric
+173996,Guadalteba,Warm temperate and xeric
+174001,Conde de Guadalhorce,Warm temperate and xeric
+174008,Okutoneko,Cool temperate and moist
+174013,Ikariko,Cool temperate and moist
+174016,Yashioko,Cool temperate and moist
+174021,Naramatako,Cool temperate and moist
+174022,Kawamatako,Cool temperate and moist
+174026,Dogenko,Cool temperate and moist
+174064,Nozoriko,Cold and mesic
+174106,Kurobeko,Cool temperate and moist
+174110,Kusakiko,Cool temperate and moist
+174120,Arimineko,Cool temperate and moist
+174126,Takaseko,Cool temperate and moist
+174163,Dainichiko,Warm temperate and mesic
+174170,Tedoriko,Warm temperate and mesic
+174179,Shimokotori,Cool temperate and moist
+174181,Hatogaya,Cool temperate and moist
+174196,Yanakako,Warm temperate and mesic
+174227,Miboroko,Cool temperate and moist
+174228,Azusako,Cool temperate and moist
+174229,Kannako,Warm temperate and mesic
+174256,Takanenorikurako,Cool temperate and moist
+174274,Okugisoko,Cool temperate and moist
+174292,Manahimeko,Warm temperate and mesic
+174300,Kuzuryuko,Warm temperate and mesic
+174314,Sasogawako,Warm temperate and mesic
+174320,Miurako,Cool temperate and moist
+174323,Ontakeko,Cool temperate and moist
+174324,Miwako,Cool temperate and moist
+174331,Okutamako,Warm temperate and mesic
+174334,Sayamako,Warm temperate and mesic
+174338,Tamako,Warm temperate and mesic
+174341,Kanayamako,Warm temperate and mesic
+174382,Sagamiko,Warm temperate and mesic
+174390,Okuibiko,Warm temperate and mesic
+174394,Tsukuiko,Warm temperate and mesic
+174415,Miyagaseko,Warm temperate and mesic
+174450,Akigawako,Warm temperate and mesic
+174451,Tanzawako,Warm temperate and mesic
+174466,Takatakiko,Warm temperate and mesic
+174470,Junam Reservoir,Warm temperate and mesic
+174471,Irukaike,Warm temperate and mesic
+174473,Hatanagiko,Cool temperate and moist
+174495,Kurokawa,Cool temperate and moist
+174500,Okuyahagiko,Warm temperate and mesic
+174508,Weishanhu,Warm temperate and mesic
+174511,Reiyoko,Warm temperate and mesic
+174514,Yubarako,Warm temperate and mesic
+174516,Ikawako,Warm temperate and mesic
+174536,Midoriko,Warm temperate and mesic
+174548,Sakumako,Warm temperate and mesic
+174550,Kijimako,Warm temperate and mesic
+174568,Horaiko,Warm temperate and mesic
+174592,Senjojiko,Warm temperate and mesic
+174597,Asahikawako,Warm temperate and mesic
+174599,Chimyoko,Warm temperate and mesic
+174607,Funagiradamuko,Warm temperate and mesic
+174638,Kakogawaozeki,Warm temperate and mesic
+174648,Tsukigaseko,Warm temperate and mesic
+174667,Sensuiko,Cool temperate and moist
+174692,Yachiyoko,Warm temperate and mesic
+174776,Tsuburoko,Warm temperate and mesic
+174790,Abuko,Warm temperate and mesic
+174801,Osugiko,Warm temperate and mesic
+174804,Fuchuko,Warm temperate and mesic
+174812,Toyotako,Warm temperate and mesic
+174813,Yasakako,Warm temperate and mesic
+174832,Mannoike,Warm temperate and mesic
+174836,Suganoko,Warm temperate and mesic
+174849,Sakamotochosuichi,Warm temperate and mesic
+174853,Onoko,Warm temperate and mesic
+174862,Ikeharako,Warm temperate and mesic
+174863,Kazeyachosuichi,Warm temperate and mesic
+174879,Nanairochosuichi,Warm temperate and mesic
+174883,Kinshako,Warm temperate and mesic
+174892,Kuroseko,Warm temperate and mesic
+174906,Nagayasuguchichosuichi,Warm temperate and mesic
+174912,Sameurako,Warm temperate and mesic
+174916,Nagasawachosuichi,Warm temperate and mesic
+174920,Omogo,Warm temperate and mesic
+174925,Okumononobeko,Warm temperate and mesic
+174930,Ananaigawa,Warm temperate and mesic
+174940,Yanasechosuichi,Warm temperate and mesic
+174945,Sagiriko,Warm temperate and mesic
+174964,Kanogawako,Warm temperate and mesic
+174968,Hokuzanchosuichi,Warm temperate and mesic
+175033,Hachinosuko,Warm temperate and mesic
+175042,Serikawa,Warm temperate and mesic
+175194,Higomidorikawako,Warm temperate and mesic
+175254,Nyuugashiibako,Warm temperate and mesic
+175282,Dokawa,Warm temperate and mesic
+175293,Ichifusa,Warm temperate and mesic
+175331,Hitotsuse,Warm temperate and mesic
+175377,Onoko,Warm temperate and mesic
+175399,Otsuruko,Warm temperate and mesic
+175413,Nojiriko,Warm temperate and mesic
+175486,Lac des Ait-Aadel,Warm temperate and xeric
+176992,Umiam,Warm temperate and mesic
+177269,Sokobaru,Hot and mesic
+177999,Kumhari Reservoir,Extremely hot and xeric
+179054,Caliraya,Extremely hot and moist
+182648,Paluma,Hot and dry
+182693,Waggaboonyah,Extremely hot and arid
+182739,Julius,Extremely hot and arid
+182800,Mary Kathleen,Extremely hot and arid
+183349,Borumba,Hot and dry
+183464,Kurwongbah,Hot and dry
+183498,Manchester,Hot and dry
+183595,Kajarabie,Hot and dry
+183619,Moogerah,Hot and dry
+183625,Advancetown Lake,Hot and dry
+183652,Maroon,Hot and dry
+184348,Canning Reservoir,Warm temperate and xeric
+184358,Wungong Reservoir,Hot and dry
+184412,Serpentine Reservoir,Warm temperate and xeric
+184476,Banksiadale,Warm temperate and mesic
+184523,Navarino,Warm temperate and mesic
+184565,Brockman,Warm temperate and mesic
+184589,Stirling Reservoir,Warm temperate and mesic
+184741,Cataract,Warm temperate and mesic
+184751,Nepean,Warm temperate and mesic
+184752,Cordeaux,Warm temperate and mesic
+184821,Burley Griffin,Warm temperate and mesic
+184839,Jounama Pondage,Warm temperate and mesic
+184858,Pond,Cool temperate and moist
+184875,Greens,Warm temperate and xeric
+184888,Nagambie Reservoir,Warm temperate and mesic
+184891,Taylor,Warm temperate and mesic
+184892,Pine,Warm temperate and mesic
+184916,Fyans,Warm temperate and mesic
+184917,Bellfield,Warm temperate and mesic
+184944,Lal Lal,Warm temperate and mesic
+185028,Barrington,Warm temperate and mesic
+185030,Cethana,Cool temperate and moist
+185033,Roseberry,Cool temperate and moist
+185051,Margaret,Cold and wet
+185060,Laughing Jack Lagoon,Cool temperate and moist
+185065,Bradys Lake,Cold and mesic
+185066,Binney,Cold and mesic
+185067,Dee Lagoon,Cold and mesic
+185074,Catagunya,Cool temperate and moist
+1320335,Scar House Reservoir,Cool temperate and moist
+1336029,Weida Reservoir,Cool temperate and dry
+1345832,Rottauensee,Cool temperate and moist
+1349725,Gosausee,Cold and mesic
+1351037,Wasserfallboden Reservoir,Extremely cold and mesic
+1351150,Mooserboden Reservoir,Extremely cold and mesic
+1353675,Zoggler Reservoir,Cold and mesic
+1353682,Ritom,Cold and wet
+1356565,Lac des Toules,Cold and wet
+1361056,Horonai,Cold and mesic
+1361444,Higashiyamako,Cool temperate and moist
+1361528,Haborochosuichi,Cool temperate and moist
+1361577,Haborofutamata,Cool temperate and moist
+1361668,Goryo,Cold and mesic
+1361707,Nakanosawatameike,Cold and mesic
+1361717,Butokutameike,Cold and mesic
+1361880,Sakuraokachosuichi,Cold and mesic
+1362032,Chuwachosuichi,Cold and mesic
+1362037,Ponteshioko,Cold and mesic
+1362039,Minamiokachosuichi,Cold and mesic
+1362070,Karippuko,Cold and mesic
+1362093,Muri,Cold and mesic
+1362115,Takadomarichosuichi,Cold and mesic
+1362159,Horoshin,Cold and mesic
+1362180,Toma,Cold and mesic
+1362218,Tomisatoko,Cold and mesic
+1362332,Kamiyunai,Cold and mesic
+1362406,Etaibetsu,Cool temperate and moist
+1362665,Seidaichosuichi,Cold and mesic
+1362719,Rukuchosuichi,Cool temperate and moist
+1362924,Nisshin,Cold and mesic
+1362927,Shikisaiko,Cold and mesic
+1362932,Nokananko,Cold and mesic
+1363034,Nokanan,Cold and mesic
+1363047,Tomura,Cold and mesic
+1363127,Tsukigata,Cool temperate and moist
+1363204,Motogoya,Cold and mesic
+1363306,Ashibetsuko,Cold and mesic
+1363414,Iwamatsuko,Cool temperate and moist
+1363440,Sahoroko,Cool temperate and moist
+1363448,Horomui,Cold and mesic
+1363463,Kuttariko,Cool temperate and moist
+1363634,Shimizusawa,Cold and mesic
+1363777,Kawabata,Cold and mesic
+1363852,Eniwako,Cool temperate and moist
+1363910,Iwachishi,Cool temperate and moist
+1363912,Azuma,Cold and mesic
+1364051,Poroshiriko,Cold and mesic
+1364197,Shimonikappu,Cool temperate and moist
+1364295,Higashinosawachoseichi,Cool temperate and moist
+1364359,Shizunaichoseichi,Cool temperate and moist
+1364386,Mitsuishi,Cool temperate and moist
+1364568,Samaniko,Cool temperate and moist
+1364606,Horomanko,Cool temperate and moist
+1364628,Ainumako,Cool temperate and moist
+1364835,Kamiiso,Cool temperate and moist
+1364860,Yabetsu,Cool temperate and moist
+1366000,Odagawa,Cool temperate and moist
+1366056,Fudoko,Cool temperate and moist
+1366121,Tenma,Cool temperate and moist
+1366149,Shinkodoroku,Cool temperate and moist
+1366191,Namioka,Cool temperate and moist
+1366216,Shimoyuheiseiko,Cool temperate and moist
+1366329,Fujinoko,Cool temperate and moist
+1366467,Hayaseno,Cool temperate and moist
+1366586,Yukiyagawa,Cool temperate and moist
+1366690,Setsukinaidamuko,Cool temperate and moist
+1366733,Hanekawa,Cool temperate and moist
+1366874,Koaniko,Cool temperate and moist
+1367048,Otakisawatameike,Cool temperate and moist
+1367051,Sotoyama,Cool temperate and moist
+1367092,Kawakitako,Cool temperate and moist
+1367135,Tsunatori,Cool temperate and moist
+1367208,Natsuse,Cool temperate and moist
+1367211,Jindaichoseichi,Cool temperate and moist
+1367230,Oshuku,Cool temperate and moist
+1367347,Toyosawako,Cool temperate and moist
+1367551,Ishibane,Cool temperate and moist
+1367561,Kuromorigawadaiichicosuichi,Cool temperate and moist
+1367582,Ainono,Cool temperate and moist
+1367674,Senganishitameike,Cool temperate and moist
+1367836,Ishibuchiko,Cool temperate and moist
+1367946,Oyasukyoko,Cool temperate and moist
+1368037,Takasaka,Cool temperate and moist
+1368103,Kurikoma,Cool temperate and moist
+1368152,Masuzawa,Cool temperate and moist
+1368391,Kejonuma,Cool temperate and moist
+1368415,Okuatsumiko,Cool temperate and moist
+1368425,Meigenko,Cool temperate and moist
+1368531,Nanatsumoriko,Cool temperate and moist
+1368597,Nanakita,Cool temperate and moist
+1368653,Kamigo,Cool temperate and moist
+1368658,Sarutachosuichi,Cool temperate and moist
+1368742,Tarumizuko,Warm temperate and mesic
+1368765,Kijiyama,Cool temperate and moist
+1368783,Maekawa,Cool temperate and moist
+1368811,Iwafune,Warm temperate and mesic
+1368845,Kawarago,Cool temperate and moist
+1368852,Birusawako,Cool temperate and moist
+1368856,Oishiko,Cool temperate and moist
+1368931,Tainaigawa,Cool temperate and moist
+1369028,Uchinokurako,Warm temperate and mesic
+1369058,Kajigawa,Cool temperate and moist
+1369091,Tamanotameike,Cool temperate and moist
+1369109,Nicchuhizawako,Cool temperate and moist
+1369215,Takanokura,Cool temperate and moist
+1369249,Yokokawa,Cool temperate and moist
+1369336,Ogaki,Cool temperate and moist
+1369351,Kasaboriko,Warm temperate and mesic
+1369366,Himesayuriko,Warm temperate and mesic
+1369400,Yunoiriko,Cool temperate and moist
+1369417,Yoshigadaira,Cool temperate and moist
+1369500,Fukadachoseichi,Cool temperate and moist
+1369504,Sakashita,Warm temperate and mesic
+1369546,Ouchi,Cool temperate and moist
+1369550,Aburumagawa,Cool temperate and moist
+1369564,Tadamiko,Cool temperate and moist
+1369607,Fujinumachosuichi,Cool temperate and moist
+1369612,Akaiwa,Warm temperate and mesic
+1369761,Bobatako,Cool temperate and moist
+1369811,Shozenjiko,Warm temperate and mesic
+1369860,Miyamako,Cool temperate and moist
+1369901,Shakunageko,Cool temperate and moist
+1369908,Otsumata,Cool temperate and moist
+1369969,Sabigawa,Cool temperate and moist
+1369978,Tane,Warm temperate and mesic
+1370007,Takashibako,Warm temperate and mesic
+1370015,Shiobara,Cool temperate and moist
+1370067,Shitokiko,Warm temperate and mesic
+1370118,Otomiko,Cool temperate and moist
+1370125,Kuriyamachoseichi,Cool temperate and moist
+1370129,Mizunuma,Cool temperate and moist
+1370147,Imaichichoseichi,Cool temperate and moist
+1370153,Marunumako,Cold and wet
+1370159,Higashikoyako,Cool temperate and moist
+1370178,Fujiwarako,Cool temperate and moist
+1370205,Tanbarako,Cool temperate and moist
+1370213,Dashidaira,Cool temperate and moist
+1370246,Okususobana,Cool temperate and moist
+1370262,Akayako,Cool temperate and moist
+1370294,Kamiichigawa,Warm temperate and mesic
+1370303,Kamiichigawadaini,Warm temperate and mesic
+1370310,Furudoike,Warm temperate and mesic
+1370326,Sonoharako,Cool temperate and moist
+1370407,Muromaki,Warm temperate and mesic
+1370428,Ryujinko,Cool temperate and moist
+1370432,Sugadairako,Cool temperate and moist
+1370437,Sakuragaike,Warm temperate and mesic
+1370442,Jinzudaiichi,Warm temperate and mesic
+1370446,Nanakura,Cool temperate and moist
+1370447,Tashiroko,Cool temperate and moist
+1370448,Makabechoseichi,Warm temperate and mesic
+1370457,Uchikawako,Warm temperate and mesic
+1370458,Soyama,Warm temperate and mesic
+1370461,Tori,Warm temperate and mesic
+1370496,Saigawako,Warm temperate and mesic
+1370505,Jajanboike,Warm temperate and mesic
+1370518,Ohara,Warm temperate and mesic
+1370519,Tedorigawadaisan,Warm temperate and mesic
+1370524,Narusawako,Warm temperate and mesic
+1370548,Narude,Warm temperate and mesic
+1370565,Togagawa,Cool temperate and moist
+1370573,Tsubakihara,Warm temperate and mesic
+1370588,Asaida,Cool temperate and moist
+1370622,Nyuko,Warm temperate and mesic
+1370674,Oshioko,Warm temperate and mesic
+1370690,Fujishanoumi,Warm temperate and mesic
+1370728,Inekoki,Cool temperate and moist
+1370744,Midono,Cool temperate and moist
+1370749,Ryugahanako,Warm temperate and mesic
+1370758,Hakusuiko,Cool temperate and moist
+1370782,Miyukiko,Warm temperate and mesic
+1370828,Asahichosuichi,Cool temperate and moist
+1370839,Akigamichosuichi,Cool temperate and moist
+1370878,Takanedaini,Cool temperate and moist
+1370889,Bushugaike,Warm temperate and mesic
+1370990,Higashiueda,Warm temperate and mesic
+1370996,Chichibuko,Cool temperate and moist
+1371004,Naraiko,Cool temperate and moist
+1371012,Momijiko,Cool temperate and moist
+1371044,Washi,Warm temperate and mesic
+1371067,Miyazawako,Warm temperate and mesic
+1371071,Naguriko,Warm temperate and mesic
+1371100,Hiroseko,Cool temperate and moist
+1371103,Tokiwa,Cool temperate and moist
+1371121,Takatoko,Cool temperate and moist
+1371135,Kiso,Cool temperate and moist
+1371189,Tamako,Warm temperate and mesic
+1371193,Nosenko,Cool temperate and moist
+1371219,Mazegawadaini,Warm temperate and mesic
+1371241,Hironodamuko,Warm temperate and mesic
+1371249,Chiyodako,Warm temperate and mesic
+1371290,Yomikaki,Warm temperate and mesic
+1371337,Ono,Warm temperate and mesic
+1371383,Yamaguchi,Warm temperate and mesic
+1371387,Hananoko,Warm temperate and mesic
+1371454,Matsukawa,Cool temperate and moist
+1371465,Ochiai,Warm temperate and mesic
+1371500,Kakiharatameike,Warm temperate and mesic
+1371520,Yamakura,Warm temperate and mesic
+1371529,Oi,Warm temperate and mesic
+1371542,Maruyamasosuiko,Warm temperate and mesic
+1371547,Kaneyama,Warm temperate and mesic
+1371581,Maesawa,Warm temperate and mesic
+1371604,Matsunoko,Warm temperate and mesic
+1371617,Amahatako,Warm temperate and mesic
+1371621,Otanichosuichi,Warm temperate and mesic
+1371700,Yamabiko,Warm temperate and mesic
+1371702,Ryokusuiko,Warm temperate and mesic
+1371707,Onbarako,Cool temperate and moist
+1371714,Kori,Warm temperate and mesic
+1371721,Shirotsubakiko,Warm temperate and mesic
+1371725,Hiraoka,Warm temperate and mesic
+1371730,Tenshiko,Warm temperate and mesic
+1371736,Iizumishusuizeki,Warm temperate and mesic
+1371766,Yahagidaini,Warm temperate and mesic
+1371769,Tataragi,Warm temperate and mesic
+1371777,Doyo,Cool temperate and moist
+1371783,Onzuiko,Cool temperate and moist
+1371784,Kameyamako,Warm temperate and mesic
+1371791,Kuroki,Cool temperate and moist
+1371821,Nichinanko,Warm temperate and mesic
+1371836,Aikawa,Warm temperate and mesic
+1371841,Ginzanko,Warm temperate and mesic
+1371842,Misakuboko,Warm temperate and mesic
+1371849,Kurodachosuichi,Cool temperate and moist
+1371863,Inukami,Warm temperate and mesic
+1371896,Segi,Warm temperate and mesic
+1371906,Sakuma,Warm temperate and mesic
+1371915,Osadamuko,Warm temperate and mesic
+1371919,Aichiike,Warm temperate and mesic
+1371950,Miyoshiike,Warm temperate and mesic
+1371969,Eigenjiko,Warm temperate and mesic
+1371992,Hamaharachosuichi,Warm temperate and mesic
+1371994,Isakachosuichi,Warm temperate and mesic
+1372005,Mikawako,Warm temperate and mesic
+1372043,Hinogawa,Warm temperate and mesic
+1372054,Kaminoseko,Warm temperate and mesic
+1372067,Miyoshiko,Warm temperate and mesic
+1372076,Akibako,Warm temperate and mesic
+1372077,Sasama,Warm temperate and mesic
+1372092,Komoto,Warm temperate and mesic
+1372095,Souriike,Warm temperate and mesic
+1372105,Ozuchi,Warm temperate and mesic
+1372129,Matsukawako,Warm temperate and mesic
+1372140,Tojoko,Warm temperate and mesic
+1372166,Maeyamaike,Warm temperate and mesic
+1372181,Oharachosuichi,Warm temperate and mesic
+1372185,Sakuraiko,Warm temperate and mesic
+1372187,Kasatochoseichi,Warm temperate and mesic
+1372196,Kisenyama,Warm temperate and mesic
+1372220,Sengarisuigenchi,Warm temperate and mesic
+1372222,Inasako,Warm temperate and mesic
+1372237,Kawashimogawa,Warm temperate and mesic
+1372255,Kunikaneike,Warm temperate and mesic
+1372280,Kinsenjiko,Warm temperate and mesic
+1372286,Gongenike,Warm temperate and mesic
+1372298,Sufugawa,Warm temperate and mesic
+1372299,Shakujoko,Warm temperate and mesic
+1372305,Tashiroko,Warm temperate and mesic
+1372318,Heisoko,Warm temperate and mesic
+1372333,Tsukuharako,Warm temperate and mesic
+1372344,Midoroike,Warm temperate and mesic
+1372377,Ogaike,Warm temperate and mesic
+1372411,Katada,Warm temperate and mesic
+1372485,Hijiriko,Cool temperate and moist
+1372530,Shinnoko,Warm temperate and mesic
+1372545,Shorenjiko,Warm temperate and mesic
+1372551,Hattachiike,Warm temperate and mesic
+1372553,Kimigano,Warm temperate and mesic
+1372562,Nameriko,Warm temperate and mesic
+1372564,Myojinchosuichi,Cool temperate and moist
+1372583,Nabarachosuichi,Warm temperate and mesic
+1372593,Osakaike,Warm temperate and mesic
+1372595,Hattorioike,Warm temperate and mesic
+1372601,Murooko,Warm temperate and mesic
+1372627,Tateiwachosuichi,Cool temperate and moist
+1372675,Sayamaike,Warm temperate and mesic
+1372680,Hakuryuko,Warm temperate and mesic
+1372681,Onoike,Warm temperate and mesic
+1372686,Seiryuko,Warm temperate and mesic
+1372730,Gokatsuraike,Warm temperate and mesic
+1372733,Komyoike,Warm temperate and mesic
+1372781,Iiyamachosuichi,Cool temperate and moist
+1372782,Soryuko,Warm temperate and mesic
+1372784,Hisayamadasuigenchi,Warm temperate and mesic
+1372819,Kamiji,Warm temperate and mesic
+1372825,Takihata,Warm temperate and mesic
+1372841,Okuiseko,Warm temperate and mesic
+1372903,Horigo,Warm temperate and mesic
+1372905,Sasanami,Warm temperate and mesic
+1372908,Watanosechosuichi,Warm temperate and mesic
+1372919,Shinjuko,Warm temperate and mesic
+1372924,Honjo,Warm temperate and mesic
+1372955,Oharako,Warm temperate and mesic
+1372960,Osakochosuichi,Warm temperate and mesic
+1372988,Kinbuchiike,Warm temperate and mesic
+1372995,Niike,Warm temperate and mesic
+1372999,Jinnaiike,Warm temperate and mesic
+1373000,Miyakono,Warm temperate and mesic
+1373014,Ouchi,Warm temperate and mesic
+1373039,Nagarako,Warm temperate and mesic
+1373058,Kamekoshiike,Warm temperate and mesic
+1373063,Takaseko,Warm temperate and mesic
+1373067,Naibaike,Warm temperate and mesic
+1373069,Iwaseike,Warm temperate and mesic
+1373084,Kodoko,Warm temperate and mesic
+1373090,Yunohara,Warm temperate and mesic
+1373105,Asahichosuichi,Warm temperate and mesic
+1373111,Kikukawako,Warm temperate and mesic
+1373116,Utsui,Warm temperate and mesic
+1373128,Nukumi,Warm temperate and mesic
+1373136,Futagawa,Warm temperate and mesic
+1373142,Otaniike,Warm temperate and mesic
+1373151,Utsuidaiichi,Warm temperate and mesic
+1373154,Ubemaruyama,Warm temperate and mesic
+1373159,Beisenko,Warm temperate and mesic
+1373195,Mannenike,Warm temperate and mesic
+1373216,Tamagawako,Warm temperate and mesic
+1373241,Matsuogawa,Cool temperate and moist
+1373275,Tondadaini,Warm temperate and mesic
+1373276,Tondadaiichichosuichi,Warm temperate and mesic
+1373290,Shirasagiko,Warm temperate and mesic
+1373309,Yoshida,Warm temperate and mesic
+1373322,Tare,Warm temperate and mesic
+1373340,Hatachosuichi,Warm temperate and mesic
+1373347,Oi,Warm temperate and mesic
+1373358,Ohashichosuichi,Warm temperate and mesic
+1373362,Masubuchichosuichi,Warm temperate and mesic
+1373372,Inamurachoseichi,Cool temperate and moist
+1373399,Omorigawachosuichi,Warm temperate and mesic
+1373406,Rikimaru,Warm temperate and mesic
+1373434,Tosakagamiko,Warm temperate and mesic
+1373435,Kayoichoike,Hot and dry
+1373440,Kuboshiro,Warm temperate and mesic
+1373468,Aburagi,Warm temperate and mesic
+1373496,Hiranabe,Warm temperate and mesic
+1373508,Aki,Warm temperate and mesic
+1373522,Kamiakizukiko,Warm temperate and mesic
+1373531,Yabakeiko,Warm temperate and mesic
+1373537,Suburi,Warm temperate and mesic
+1373539,Hisashi,Warm temperate and mesic
+1373540,Minamihata,Warm temperate and mesic
+1373544,Minagiko,Warm temperate and mesic
+1373576,Asagiriko,Warm temperate and mesic
+1373582,Hiju,Warm temperate and mesic
+1373599,Sayonoumi,Warm temperate and mesic
+1373615,Gosho,Warm temperate and mesic
+1373723,Yamashitaike,Cool temperate and moist
+1373727,Nagaiketameike,Warm temperate and mesic
+1373751,Hyugami,Warm temperate and mesic
+1373771,Amagatanichosuichi,Cool temperate and moist
+1373934,Kayaze,Warm temperate and mesic
+1373936,Nodaketameike,Warm temperate and mesic
+1373937,Ishiba,Warm temperate and mesic
+1374051,Konoura,Warm temperate and mesic
+1374105,Fukasako,Warm temperate and mesic
+1374110,Narumi,Warm temperate and mesic
+1374118,Ogakura,Hot and dry
+1374154,Urakamisuigenchi,Warm temperate and mesic
+1374156,Kitagawa,Warm temperate and mesic
+1374213,Oshidorinoike,Warm temperate and mesic
+1374588,Tsukabaru,Warm temperate and mesic
+1374669,Kyoragi,Warm temperate and mesic
+1374670,Saigo,Warm temperate and mesic
+1374717,Ouchibaru,Warm temperate and mesic
+1374735,Uchitani,Cool temperate and moist
+1375164,Tachibana,Warm temperate and mesic
+1375292,Kogawa,Warm temperate and mesic
+1375491,Oyodogawadaini,Warm temperate and mesic
+1375538,Oyodogawadaiichi,Warm temperate and mesic
+1375712,Takeyama,Warm temperate and mesic
+1375977,Sakataniko,Warm temperate and mesic
+1376154,Osumiko,Warm temperate and mesic
+1377578,Saikyo,Warm temperate and mesic
+1383379,Kannako,Hot and mesic
+1383471,Zukeyama,Hot and mesic
+1386542,Maezato,Hot and mesic
+1386553,Nagura,Hot and mesic
+1408081,Lake Kivu,Hot and dry
+1415583,Odzani Lake,Warm temperate and mesic
+1424062,Victoria Reservoir,Warm temperate and xeric
+1427010,Taupo,Warm temperate and mesic
+1427119,Parangana,Cool temperate and moist
+1427299,Repulse,Cool temperate and moist

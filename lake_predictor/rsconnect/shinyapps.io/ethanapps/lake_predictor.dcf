@@ -5,7 +5,7 @@ account: ethanapps
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 10693697
-bundleId: 7997336
+bundleId: 8002970
 url: https://ethanapps.shinyapps.io/lake_predictor/
 version: 1
 asMultiple: FALSE

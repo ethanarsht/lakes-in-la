@@ -11,12 +11,15 @@ fluidPage(
 
     sidebarLayout(
         sidebarPanel(
-            selectizeInput('lake', 'Lake', choices = c(sort(choices$Lake_name))),
-            dateInput2('pred_date', 
-                        'Predict for this month:', 
-                        minview = "months",
-                        startview = "months",
-                        maxview = "year")
+            selectizeInput('lake', 'Lake', 
+                           choices = c(sort(choices$Lake_name)),
+                           selected = "Great Salt"),
+            dateInput('pred_date', 
+                      'Predict for this month:', 
+                      min = as.Date("2019-01-01"),
+                      max = as.Date("2048-12-01"),
+                      startview = "year"
+            )
         ),
 
         mainPanel(
