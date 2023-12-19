@@ -1,0 +1,189 @@
+---
+title: "Arima+CrossVal"
+author: "Jaskirat Kaur"
+date: "2023-11-07"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(forecast)
+library(sf)
+library(imputeTS)
+library(data.table)
+```
+
+__Load Data and Filter out__
+
+```{r}
+evap_volume <- fread('/Users/jaskiratkaur/Documents/TimeSeries/data/2_evaporation_volume.csv')
+evap_rate <- fread('/Users/jaskiratkaur/Documents/TimeSeries/data/0_evaporation_rate.csv')
+```
+
+__Part 1. Modeling for Volume__
+```{r}
+df_slc_rate <- evap_rate[Hylak_id == 792
+  ][, melt(.SD, id.vars = "Hylak_id")
+  ][, date := as.IDate(variable)
+  ][date >= as.IDate("1995-01-01")] 
+
+ts_rate <- ts(df_slc_rate$value, frequency = 12) %>% na_interpolation()
+
+tsdisplay(ts_rate)
+```
+
+
+```{r}
+arima_model <- auto.arima(ts_rate, lambda = 'auto', stepwise = FALSE)
+summary(arima_model)
+```
+```{r}
+checkresiduals(arima_model)
+
+```
+
+```{r}
+ets(ts_rate, lambda = 'auto')
+```
+
+__Part 2. Modeling for rate__
+```{r}
+df_slc_vol <- evap_volume[Hylak_id == 792
+  ][, melt(.SD, id.vars = "Hylak_id")
+  ][, date := as.IDate(variable)
+  ][date >= as.IDate("1995-01-01")] 
+
+ts_vol <- ts(df_slc_vol$value, frequency = 12) %>% na_interpolation()
+
+tsdisplay(ts_vol)
+```
+
+```{r}
+arima_model_2 <- auto.arima(ts_vol, lambda = 'auto', stepwise = FALSE)
+summary(arima_model_2)
+```
+
+```{r}
+checkresiduals(arima_model_2)
+```
+
+
+### CROSS VALIDATION
+
+```{r}
+k <- 24 # minimum data length for fitting a model
+n <- length(ts_vol)
+
+p <- 12 # period/seasonality
+H <- 12 # Forecast Horizon
+
+st <- tsp(ts_vol)[1]+(k-2)/p
+
+mae_1 <- matrix(NA,n-k,H)
+mae_2 <- matrix(NA,n-k,H)
+
+
+# Arima expanding window
+mae_arima_expand <- matrix(NA,n-k,H)
+rmse_arima_expand <- matrix(NA,n-k,H)
+aic_arima_expand <- numeric(80)
+
+# Arima sliding window
+mae_arima_slide <- matrix(NA,n-k,H)
+rmse_arima_slide <- matrix(NA,n-k,H)
+aic_arima_slide <- numeric(80)
+
+# ETS expanding window 
+mae_ets_expand <- matrix(NA,n-k,H)
+rmse_ets_expand <- matrix(NA,n-k,H)
+aic_ets_expand <- numeric(80)
+
+# ETS sliding window
+mae_ets_slide <- matrix(NA,n-k,H)
+rmse_ets_slide <- matrix(NA,n-k,H)
+aic_ets_slide <- numeric(80)
+
+for(i in 1:(n-k)) {
+    # Expanding Window 
+    train_1 <- window(ts_vol, end=st + i/p)
+    
+    # Sliding Window 
+    train_2 <- window(ts_vol, start=st+(i-k+1)/p, end=st+i/p)
+    
+    test <- window(ts_vol, start=st + (i+1)/p, end=st + (i+H)/p)
+  
+    # Arima - Expanding Window
+    fit_1 <- Arima(train_1, order = c(1, 0, 1), seasonal = list(order = c(0, 1, 2), period = 12), include.drift = TRUE, lambda = "auto", method='ML')
+    fcast_1 <- forecast(fit_1, h=H)
+  
+    # Arima - Sliding Window
+    fit_2 <- Arima(train_2, order = c(1, 0, 1), seasonal = list(order = c(0, 1, 2), period = 12), include.drift = TRUE, lambda = "auto", method='ML')
+    fcast_2 <- forecast(fit_2, h=H)
+  
+    # ARIMA errors and AICc - Expanding Window
+    mae_arima_expand[i,1:length(test)] <- abs(fcast_1[['mean']]-test)
+    rmse_arima_expand[i,1:length(test)] <- (fcast_1[['mean']]-test)^2
+    aic_arima_expand[i] <- fit_1$aicc
+  
+    # ARIMA errors and AICc - Sliding Window
+    mae_arima_slide[i,1:length(test)] <- abs(fcast_2[['mean']]-test)
+    rmse_arima_slide[i,1:length(test)] <- (fcast_2[['mean']]-test)^2
+    aic_arima_slide[i] <- fit_2$aicc
+  
+    # ETS - Expanding Window
+    fit_ets_1 <- ets(train_1, model = "MAM")
+    fcast_ets_1 <- forecast(fit_ets_1, h=H)
+  
+    # ETS - Sliding Window
+    fit_ets_2 <- ets(train_2, model = "MAM")
+    fcast_ets_2 <- forecast(fit_ets_2, h=H)
+  
+    # ETS errors and AICc - Expanding Window
+    mae_ets_expand[i,1:length(test)] <- abs(fcast_ets_1[['mean']]-test)
+    rmse_ets_expand[i,1:length(test)] <- (fcast_ets_1[['mean']]-test)^2
+    aic_ets_expand[i] <- fit_ets_1$aicc
+  
+    # ETS errors and AICc - Sliding Window
+    mae_ets_slide[i,1:length(test)] <- abs(fcast_ets_2[['mean']]-test)
+    rmse_ets_slide[i,1:length(test)] <- (fcast_ets_2[['mean']]-test)^2
+    aic_ets_slide[i] <- fit_ets_2$aicc
+}
+
+# Calculate RMSE
+rmse_arima_expand <- sqrt(apply(rmse_arima_expand, 2, mean, na.rm = TRUE))
+rmse_ets_expand <- sqrt(apply(rmse_ets_expand, 2, mean, na.rm = TRUE))
+rmse_arima_slide <- sqrt(apply(rmse_arima_slide, 2, mean, na.rm = TRUE))
+rmse_ets_slide <- sqrt(apply(rmse_ets_slide, 2, mean, na.rm = TRUE))
+
+```
+```{r}
+matplot(cbind(rmse_arima_expand, rmse_arima_slide, rmse_ets_expand, rmse_ets_slide), 
+        type = "l", lty = 1, xlab = "Horizon", ylab = "RMSE",
+        col = c("red", "blue", "green", "purple"))
+legend("top", legend = c("ARIMA Expanding", "ARIMA Sliding", "ETS Expanding", "ETS Sliding"), 
+       lty = 1, col = c("red", "blue", "green", "purple"))
+```
+```{r}
+mae_arima_expand <- colMeans(abs(mae_arima_expand), na.rm=TRUE)
+mae_arima_slide <- colMeans(abs(mae_arima_slide), na.rm=TRUE)
+mae_ets_expand <- colMeans(abs(mae_ets_expand), na.rm=TRUE)
+mae_ets_slide <- colMeans(abs(mae_ets_slide), na.rm=TRUE)
+
+matplot(cbind(mae_arima_expand, mae_arima_slide, mae_ets_expand, mae_ets_slide), 
+        type = "l", lty = 1, xlab = "Horizon", ylab = "MAE",
+        col = c("red", "blue", "green", "purple"))
+legend("topleft", legend = c("ARIMA Expanding", "ARIMA Sliding", "ETS Expanding", "ETS Sliding"),
+       lty = 1, col = c("red", "blue", "green", "purple"))
+```
+```{r}
+plot(aic_arima_expand, type='l', ylab='AICc', xlab='Iteration', main='ARIMA Expanding vs Slide')
+lines(aic_arima_slide, col='blue')
+legend("topright", legend=c("Expanding", "Sliding"), col=c("black", "blue"), lty = 1)
+
+# ETS
+plot(aic_ets_expand, type='l', ylab='AICc', xlab='Iteration', main='ETS Expanding vs Slide')
+lines(aic_ets_slide, col='blue')
+legend("topright", legend=c("Expanding", "Sliding"), col=c("black", "blue"), lty = 1)
+```
+
+

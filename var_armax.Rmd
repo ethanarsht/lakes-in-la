@@ -1,0 +1,118 @@
+---
+title: "TimeSeries_Var"
+author: "Jaskirat Kaur"
+date: "2023-12-01"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(forecast)
+library(sf)
+library(imputeTS)
+library(data.table)
+library(ggplot2)
+library(scales)
+library(vars)
+```
+
+
+__Load Data and Filter out__
+
+```{r}
+evap_vol <- fread("/Users/jaskiratkaur/Documents/TimeSeries/data/water_evaporation_lake_tahoe.csv")
+```
+
+```{r}
+regressors <- fread("/Users/jaskiratkaur/Documents/TimeSeries/data/east_lake_tahoe_monthly_weather.csv")
+```
+
+```{r}
+
+```
+
+
+__Part 1. Modeling for Volume__
+```{r}
+ts_vol <- ts(evap_vol$value, frequency = 12) %>% na_interpolation()
+
+tsdisplay(ts_vol)
+```
+
+
+```{r}
+
+regressors$date <- as.Date(paste(regressors$year, regressors$month, "01", sep="-"))
+
+# Filter data for the specified time period (January 1995 to December 2018)
+filtered_data <- regressors[regressors$date >= "1995-01-01" & regressors$date <= "2018-12-31", ]
+
+precip <- filtered_data[, preciptation]
+# Create a time series object
+ts_regressors <- ts(filtered_data[, c("preciptation", "snow_inch", "max_temp")], start = c(1995, 1), frequency = 12)
+
+```
+
+```{r}
+ts_precip <- ts_regressors[, "preciptation"]
+```
+
+```{r}
+plot(ts_regressors[, "max_temp"], main = "Maximum Temperature Time Series", ylab = "Temperature")
+```
+
+
+```{r}
+plot(ts_precip, main = "Precipitation Time Series", ylab = "Precipitation")
+```
+
+
+```{r}
+tsdisplay(ts_precip)
+```
+
+```{r}
+arima_precip <- auto.arima(ts_precip)
+arima_precip
+```
+
+
+```{r}
+checkresiduals(arima_precip)
+```
+
+
+
+```{r}
+norm_evap_vol <- log(evap_vol$value)
+```
+
+
+
+```{r}
+plot(rescale(precip), norm_evap_vol, main = "Precipitation vs Evaporation volume", xlab = "Precipitation", ylab = "Evaporation Volume")
+```
+
+
+```{r}
+correlation <- cor(precip, evap_vol$value)
+cat("Correlation between Precipitation and Evaporation volume:", correlation, "\n")
+```
+
+
+```{r}
+arima_model <- auto.arima(ts_vol, xreg = precip, D=1, lambda = 0)
+summary(arima_model)
+```
+
+```{r}
+checkresiduals(arima_model)
+```
+
+```{r}
+# Fit VAR(10) model
+var_model <- VAR(cbind(precip, evap_vol$value), p = 10, type = "both", season = 12)
+summary(var_model)
+```
+
